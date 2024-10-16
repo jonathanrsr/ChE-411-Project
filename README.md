@@ -14,3 +14,7 @@ This project aims to reproduce results from the paper **"A detailed genome-scale
 ### Week 2 (October 16th, 2024)
 
 Additional tasks will be added each week based on progress and new insights.
+- [ ] Make the strain specific models described in Table 1.
+- [ ] Reproduce Table 2.
+- [ ] Reproduce Figure 2a.
+- [ ] Reproduce Figure 2b.
