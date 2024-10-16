@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project aims to reproduce results from the paper **"A detailed genome-scale metabolic model of _Clostridium thermocellum_ investigates sources of pyrophosphate for driving glycolysis"** (Paper is included in this repository). The metabolic model of _C. thermocellum_ used in the study, known as iCTH669, is publicly available through the [Maranas Group's GitHub repository](https://github.com/maranasgroup/iCTH669).
+This project aims to reproduce results from the paper **"A detailed genome-scale metabolic model of _Clostridium thermocellum_ investigates sources of pyrophosphate for driving glycolysis"** ([Paper is included in this repository](Paper.pdf). The metabolic model of _C. thermocellum_ used in the study, known as iCTH669, is publicly available through the [Maranas Group's GitHub repository](https://github.com/maranasgroup/iCTH669).
 
 ## Tasks (Updated Every Thursday)
 
