@@ -8,7 +8,7 @@ This project aims to reproduce results from the paper **"A detailed genome-scale
 
 ### Week 5 (October 11th, 2024)
 
-| Task                                                                                               |      Person      | Status |
+| <div style="width:290px">Task</div>                                                            |      Person      | Status |
 |----------------------------------------------------------------------------------------------------|:---------------: |:-------:|
 | Read the paper                                                                                     |     Everyone     |   [x]   |
 | Explorer the GitHub code                                                                           |     Everyone     |   [x]   |
