@@ -6,7 +6,7 @@ This project aims to reproduce results from the paper **"A detailed genome-scale
 
 ## Tasks (Updated Every Thursday)
 
-### Week 1 (October 9th, 2024)
+### Week 5 (October 11th, 2024)
 - [x] Read the paper.
 - [x] Explore the GitHub code.
 - [x] Make a presentation for the TA resuming the paper and the analysis that need to be done.
