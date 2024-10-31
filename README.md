@@ -20,6 +20,6 @@ This project aims to reproduce results from the paper **"A detailed genome-scale
 | Reproduce **Figure 2** by minimizing cellobiose uptake for a given ethanol yield                   |      César       |   [ ]   |
 | Reproduce **Table 2**                                                                              |     Jonathan     |   [x]   |
 | Understand how to obtain **Table 3**                                                               |       Tom        |   [ ]   |
-| Bonus: Reproduce **Table 3** 
+| Bonus: Reproduce **Table 3**                                                                       |       Tom        |   [ ]   |
 
 Additional tasks will be added each week based on progress and new insights.
