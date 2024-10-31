@@ -7,7 +7,7 @@
 
 <h3>Week 5 (October 11th, 2024)</h3>
 
-<table width="20cm">
+<table width="500px">
   <tr>
     <th width="80%">Task</th>
     <th width="10%"; text-align: center;">Person</th>
@@ -32,7 +32,7 @@
 
 <h3>Week 7 (November 1st, 2024)</h3>
 
-<table width="20cm">
+<table width="500px">
   <tr>
     <th width="80%">Task</th>
     <th width="10%"; text-align: center;">Person</th>
