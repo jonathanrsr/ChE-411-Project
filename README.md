@@ -14,7 +14,7 @@
     <th width="250": text-align: center;">Status</th>
   </tr>
   <tr>
-    <td>Read the paper</td>
+    <td width="1500">Read the paper</td>
     <td width="250"; text-align: center;>Everyone</td>
     <td width="250"; text-align: center;">[x]</td>
   </tr>
