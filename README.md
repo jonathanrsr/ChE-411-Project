@@ -9,7 +9,7 @@
 
 <table>
   <tr>
-    <th width="200cm">Task</th>
+    <th width="2000">Task</th>
     <th width="2cm"; text-align: center;">Person</th>
     <th width="2cm": 3cm; text-align: center;">Status</th>
   </tr>
