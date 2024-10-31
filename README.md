@@ -10,8 +10,8 @@
 <table>
   <tr>
     <th width="1500">Task</th>
-    <th width="250"; text-align="center";>Person</th>
-    <th width="250": text-align="center";">Status</th>
+    <th width="250"; align="center";>Person</th>
+    <th width="250": align="center";">Status</th>
   </tr>
   <tr>
     <td>Read the paper</td>
