@@ -34,9 +34,9 @@
 
 <table width="500px">
   <tr>
-    <th width="80%">Task</th>
-    <th width="10%"; text-align: center;">Person</th>
-    <th width="10%": 3cm; text-align: center;">Status</th>
+    <th width="1500">Task</th>
+    <th width="250"; text-align: center;">Person</th>
+    <th width="250": 3cm; text-align: center;">Status</th>
   </tr>
   <tr>
     <td>Redesign PowerPoint presentation</td>
