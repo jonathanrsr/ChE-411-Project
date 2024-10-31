@@ -5,12 +5,12 @@
 
 <h2>Tasks (Updated Every Thursday)</h2>
 
-<div style="width: 20cm;">
+<div style="width: 200cm;">
   <h3>Week 5 (October 11th, 2024)</h3>
 
-  <table style="width: 20cm;">
+  <table style="width: 200cm;">
     <tr>
-      <th style="width: 16cm%;">Task</th>
+      <th style="width: 160cm%;">Task</th>
       <th style="width: 2cm%; text-align: center;">Person</th>
       <th style="width: 2cm%; text-align: center;">Status</th>
     </tr>
