@@ -3,6 +3,9 @@
 <h2>Introduction</h2>
 <p>This project aims to reproduce results from the paper <strong>"A detailed genome-scale metabolic model of <em>Clostridium thermocellum</em> investigates sources of pyrophosphate for driving glycolysis"</strong> (<a href="Paper.pdf">Paper is included in this repository</a>). The metabolic model of <em>C. thermocellum</em> used in the study, known as iCTH669, is publicly available through the <a href="https://github.com/maranasgroup/iCTH669">Maranas Group's GitHub repository</a>.</p>
 
+<h2>Informations</h2>
+<p>The models to use are in fact the models <i>iCTH670_w_GLGC</i> and <i>iCTH670_wo_GLGC</i> in the authors' GitHub repository. For clarity, thex have been renamed to <i>iCTH669_w_GLGC</i> and <i>iCTH669_wo_GLGC</i> in this repository, in the <a href="Models">Models</a> folder.</p>
+
 <h2>Tasks (Updated Every Thursday)</h2>
 
 <h3>Week 5 (October 11th, 2024)</h3>
@@ -69,6 +72,5 @@
     <td align="center">[ ]</td>
   </tr>
 </table>
-<p>Note: the models to use are in fact the models <i>iCTH670_w_GLGC</i> and <i>iCTH670_wo_GLGC</i> in the authors' GitHub repository. For clarity, thex have been renamed to <i>iCTH669_w_GLGC</i> and <i>iCTH669_wo_GLGC</i> in this repository, in the <a href="Models">Models</a> folder.</p>
 
 <p>Additional tasks will be added each week based on progress and new insights.</p>
