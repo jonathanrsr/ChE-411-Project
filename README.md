@@ -5,71 +5,70 @@
 
 <h2>Tasks (Updated Every Thursday)</h2>
 
-<div style="width: 200cm;">
-  <h3>Week 5 (October 11th, 2024)</h3>
+<h3>Week 5 (October 11th, 2024)</h3>
 
-  <table style="width: 200cm;">
-    <tr>
-      <th style="width: 160cm%;">Task</th>
-      <th style="width: 2cm%; text-align: center;">Person</th>
-      <th style="width: 2cm%; text-align: center;">Status</th>
-    </tr>
-    <tr>
-      <td>Read the paper</td>
-      <td style="text-align: center;">Everyone</td>
-      <td style="text-align: center;">[x]</td>
-    </tr>
-    <tr>
-      <td>Explore the GitHub code</td>
-      <td style="text-align: center;">Everyone</td>
-      <td style="text-align: center;">[x]</td>
-    </tr>
-    <tr>
-      <td>Make a presentation for the TA summarizing the paper and the analyses that need to be done</td>
-      <td style="text-align: center;">Everyone</td>
-      <td style="text-align: center;">[x]</td>
-    </tr>
-  </table>
+<table>
+  <tr>
+    <th width="1500"; align="left">Task</th>
+    <th width="250">Person</th>
+    <th width="250"">Status</th>
+  </tr>
+  <tr>
+    <td>Read the paper</td>
+    <td align="center">Everyone</td>
+    <td align="center">[x]</td>
+  </tr>
+  <tr>
+    <td>Explore the GitHub code</td>
+    <td align="center">Everyone</td>
+    <td align="center">[x]</td>
+  </tr>
+  <tr>
+    <td>Make a presentation for the TA summarizing the paper and the analyses that need to be done</td>
+    <td align="center">Everyone</td>
+    <td align="center">[x]</td>
+  </tr>
+</table>
 
-  <h3>Week 7 (November 1st, 2024)</h3>
+<h3>Week 7 (November 1st, 2024)</h3>
 
-  <table style="width: 100%;">
-    <tr>
-      <th style="width: 70%;">Task</th>
-      <th style="width: 15%; text-align: center;">Person</th>
-      <th style="width: 15%; text-align: center;">Status</th>
-    </tr>
-    <tr>
-      <td>Redesign PowerPoint presentation</td>
-      <td style="text-align: center;">Everyone</td>
-      <td style="text-align: center;">[x]</td>
-    </tr>
-    <tr>
-      <td>Reproduce <b>Figure 2 a)</b> and <b>Figure 2 b)</b> using the method described in the paper</td>
-      <td style="text-align: center;">Marija</td>
-      <td style="text-align: center;">[ ]</td>
-    </tr>
-    <tr>
-      <td>Reproduce <b>Figure 2</b> by minimizing cellobiose uptake for a given ethanol yield</td>
-      <td style="text-align: center;">César</td>
-      <td style="text-align: center;">[ ]</td>
-    </tr>
-    <tr>
-      <td>Reproduce <b>Table 2</b></td>
-      <td style="text-align: center;">Jonathan</td>
-      <td style="text-align: center;">[x]</td>
-    </tr>
-    <tr>
-      <td>Understand how to obtain <b>Table 3</b></td>
-      <td style="text-align: center;">Tom</td>
-      <td style="text-align: center;">[x]</td>
-    </tr>
-    <tr>
-      <td>Bonus: Reproduce <b>Table 3</b></td>
-      <td style="text-align: center;">Tom</td>
-      <td style="text-align: center;">[ ]</td>
-    </tr>
-  </table>
-</div>
+<table>
+  <tr>
+    <th width="1500"; align="left">Task</th>
+    <th width="250">Person</th>
+    <th width="250">Status</th>
+  </tr>
+  <tr>
+    <td>Redesign PowerPoint presentation</td>
+    <td align="center">Everyone</td>
+    <td align="center">[x]</td>
+  </tr>
+  <tr>
+    <td>Reproduce <b>Figure 2 a)</b> and <b>Figure 2 b)</b> using the method described in the paper</td>
+    <td align="center">Marija</td>
+    <td align="center">[ ]</td>
+  </tr>
+  <tr>
+    <td>Reproduce <b>Figure 2</b> by minimizing cellobiose uptake for a given ethanol yield</td>
+    <td align="center">César</td>
+    <td align="center">[ ]</td>
+  </tr>
+  <tr>
+    <td>Reproduce <b>Table 2</b></td>
+    <td align="center">Jonathan</td>
+    <td align="center">[x]</td>
+  </tr>
+  <tr>
+    <td>Understand how to obtain <b>Table 3</b></td>
+    <td align="center">Tom</td>
+    <td align="center">[ ]</td>
+  </tr>
+  <tr>
+    <td>Bonus: Reproduce <b>Table 3</b></td>
+    <td align="center">Tom</td>
+    <td align="center">[ ]</td>
+  </tr>
+</table>
+<p>Note: the models to use are in fact the models <i>iCTH670_w_GLGC</i> and <i>iCTH670_wo_GLGC</i> in the authors' GitHub repository. For clarity, thex have been renamed to <i>iCTH669_w_GLGC</i> and <i>iCTH669_wo_GLGC</i> in this repository, in the <a href="Models">Models</a> folder.</p>
 
 <p>Additional tasks will be added each week based on progress and new insights.</p>
