@@ -11,10 +11,12 @@ This project aims to reproduce results from the paper **"A detailed genome-scale
 - [x] Explore the GitHub code.
 - [x] Make a presentation for the TA resuming the paper and the analysis that need to be done.
   
-### Week 2 (October 16th, 2024)
+### Week 7 (November 1st, 2024)
 
 Additional tasks will be added each week based on progress and new insights.
-- [ ] Make the strain specific models described in Table 1.
-- [ ] Reproduce Table 2.
-- [ ] Reproduce Figure 2a.
-- [ ] Reproduce Figure 2b.
+- [ ] Redesign PowerPoint presentation (everyone).
+- [ ] Reproduce **Figure 2 a)** and **Figure 2 b) using the same method as described in the paper (Marija).
+- [ ] Reproduce **Figure 2** by minimising cellobiose uptake for a given ethanol yield (César).
+- [x] Reproduce **Table 2** (Jonathan).
+- [ ] Understand how to obtain **Table 3** (Tom).
+- [ ] Bonus: Reproduce **Table 3** (Tom).
