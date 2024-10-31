@@ -8,7 +8,7 @@
 <div width="100%">
   <h3>Week 5 (October 11th, 2024)</h3>
 
-  <table style="width: 20cm;">
+  <table>
     <tr>
       <th width="80%">Task</th>
       <th width="10%"; text-align: center;">Person</th>
