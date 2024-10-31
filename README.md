@@ -5,7 +5,7 @@
 
 <h2>Tasks (Updated Every Thursday)</h2>
 
-<div width="100%">
+<div width="20cm">
   <h3>Week 5 (October 11th, 2024)</h3>
 
   <table>
