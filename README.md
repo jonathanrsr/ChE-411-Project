@@ -7,11 +7,11 @@
 
 <h3>Week 5 (October 11th, 2024)</h3>
 
-<table width="500px">
+<table>
   <tr>
-    <th width="80%">Task</th>
-    <th width="10%"; text-align: center;">Person</th>
-    <th width="10%": 3cm; text-align: center;">Status</th>
+    <th width="20cm">Task</th>
+    <th width="2cm"; text-align: center;">Person</th>
+    <th width="2cm": 3cm; text-align: center;">Status</th>
   </tr>
   <tr>
     <td>Read the paper</td>
