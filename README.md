@@ -41,7 +41,7 @@
   <tr>
     <td>Redesign PowerPoint presentation</td>
     <td style="text-align: center;">Everyone</td>
-    <td style="text-align: center;">[ ]</td>
+    <td style="text-align: center;">[x]</td>
   </tr>
   <tr>
     <td>Reproduce <b>Figure 2 a)</b> and <b>Figure 2 b)</b> using the method described in the paper</td>
