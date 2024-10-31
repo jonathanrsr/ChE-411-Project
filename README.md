@@ -13,10 +13,13 @@ This project aims to reproduce results from the paper **"A detailed genome-scale
   
 ### Week 7 (November 1st, 2024)
 
+| Task                                                                                               |      Person      | Status |
+|----------------------------------------------------------------------------------------------------|:---------------: |:--------:|
+| Redesign PowerPoint presentation                                                                   |     Everyone     |   [ ]   |
+| Reproduce **Figure 2 a)** and **Figure 2 b)** using the method described in the paper              |     Marija       |   [ ]   |
+| Reproduce **Figure 2** by minimizing cellobiose uptake for a given ethanol yield                   |      César       |   [ ]   |
+| Reproduce **Table 2**                                                                              |     Jonathan     |   [x]   |
+| Understand how to obtain **Table 3**                                                               |       Tom        |   [ ]   |
+| Bonus: Reproduce **Table 3** 
+
 Additional tasks will be added each week based on progress and new insights.
-- [ ] Redesign PowerPoint presentation (everyone).
-- [ ] Reproduce **Figure 2 a)** and **Figure 2 b) using the same method as described in the paper (Marija).
-- [ ] Reproduce **Figure 2** by minimising cellobiose uptake for a given ethanol yield (César).
-- [x] Reproduce **Table 2** (Jonathan).
-- [ ] Understand how to obtain **Table 3** (Tom).
-- [ ] Bonus: Reproduce **Table 3** (Tom).
