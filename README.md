@@ -15,8 +15,8 @@
   </tr>
   <tr>
     <td>Read the paper</td>
-    <td text-align="center">Everyone</td>
-    <td text-align="center">[x]</td>
+    <td align="center">Everyone</td>
+    <td align="center">[x]</td>
   </tr>
   <tr>
     <td>Explore the GitHub code</td>
