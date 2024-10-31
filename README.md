@@ -5,14 +5,14 @@
 
 <h2>Tasks (Updated Every Thursday)</h2>
 
-<div style="width: 20cm;">
+<div width="100%">
   <h3>Week 5 (October 11th, 2024)</h3>
 
   <table style="width: 20cm;">
     <tr>
-      <th style="width: 14cm;">Task</th>
-      <th style="width: 3cm; text-align: center;">Person</th>
-      <th style="width: 3cm; text-align: center;">Status</th>
+      <th width="80%">Task</th>
+      <th width="10%"; text-align: center;">Person</th>
+      <th width="10%": 3cm; text-align: center;">Status</th>
     </tr>
     <tr>
       <td>Read the paper</td>
@@ -35,9 +35,9 @@
 
   <table>
     <tr>
-      <th width="50%">Task</th>
-      <th width="25%"; text-align: center;">Person</th>
-      <th width="25%": 3cm; text-align: center;">Status</th>
+      <th width="80%">Task</th>
+      <th width="10%"; text-align: center;">Person</th>
+      <th width="10%": 3cm; text-align: center;">Status</th>
     </tr>
     <tr>
       <td>Redesign PowerPoint presentation</td>
