@@ -69,6 +69,6 @@
     <td align="center">[ ]</td>
   </tr>
 </table>
-<p>The models to use are in fact the models <b>iCTH670_w_GLGC</b> and <b>iCTH670_wo_GLGC</b> in the authors' GitHub repository. For clarity, thex have been renamed to <b>iCTH669_w_GLGC</b> and <b>iCTH669_wo_GLGC</b> in this repository, under <a href="Models">Models</a></p>
+<p>Note: the models to use are in fact the models <i>iCTH670_w_GLGC</i> and <i>iCTH670_wo_GLGC</i> in the authors' GitHub repository. For clarity, thex have been renamed to <i>iCTH669_w_GLGC</i> and <i>iCTH669_wo_GLGC</i> in this repository, under <a href="Models">Models.</a></p>
 
 <p>Additional tasks will be added each week based on progress and new insights.</p>
