@@ -11,12 +11,12 @@
   <tr>
     <th width="1500">Task</th>
     <th width="250"; text-align: center;>Person</th>
-    <th width="250": 3cm; text-align: center;">Status</th>
+    <th width="250": text-align: center;">Status</th>
   </tr>
   <tr>
     <td>Read the paper</td>
-    <td text-align: center;>Everyone</td>
-    <td style="text-align: center;">[x]</td>
+    <td width="250"; text-align: center;>Everyone</td>
+    <td width="250"; text-align: center;">[x]</td>
   </tr>
   <tr>
     <td>Explore the GitHub code</td>
