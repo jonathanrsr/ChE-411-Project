@@ -69,5 +69,6 @@
     <td style="text-align: center;">[ ]</td>
   </tr>
 </table>
+<p>The models to use are in fact the models <b>iCTH670_w_GLGC</b> and <b>iCTH670_wo_GLGC</b></p>
 
 <p>Additional tasks will be added each week based on progress and new insights.</p>
