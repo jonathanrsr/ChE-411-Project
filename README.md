@@ -20,55 +20,55 @@
   </tr>
   <tr>
     <td>Explore the GitHub code</td>
-    <td style="text-align: center;">Everyone</td>
-    <td style="text-align: center;">[x]</td>
+    <td align="center">Everyone</td>
+    <td align="center">[x]</td>
   </tr>
   <tr>
     <td>Make a presentation for the TA summarizing the paper and the analyses that need to be done</td>
-    <td style="text-align: center;">Everyone</td>
-    <td style="text-align: center;">[x]</td>
+    <td align="center">Everyone</td>
+    <td align="center">[x]</td>
   </tr>
 </table>
 
 <h3>Week 7 (November 1st, 2024)</h3>
 
-<table width="500px">
+<table>
   <tr>
-    <th width="1500">Task</th>
-    <th width="250"; text-align: center;">Person</th>
-    <th width="250": 3cm; text-align: center;">Status</th>
+    <th width="1500"; align="left">Task</th>
+    <th width="250">Person</th>
+    <th width="250">Status</th>
   </tr>
   <tr>
     <td>Redesign PowerPoint presentation</td>
-    <td style="text-align: center;">Everyone</td>
-    <td style="text-align: center;">[x]</td>
+    <td align="center">Everyone</td>
+    <td align="center">[x]</td>
   </tr>
   <tr>
     <td>Reproduce <b>Figure 2 a)</b> and <b>Figure 2 b)</b> using the method described in the paper</td>
-    <td style="text-align: center;">Marija</td>
-    <td style="text-align: center;">[ ]</td>
+    <td align="center">Marija</td>
+    <td align="center">[ ]</td>
   </tr>
   <tr>
     <td>Reproduce <b>Figure 2</b> by minimizing cellobiose uptake for a given ethanol yield</td>
-    <td style="text-align: center;">César</td>
-    <td style="text-align: center;">[ ]</td>
+    <td align="center">César</td>
+    <td align="center">[ ]</td>
   </tr>
   <tr>
     <td>Reproduce <b>Table 2</b></td>
-    <td style="text-align: center;">Jonathan</td>
-    <td style="text-align: center;">[x]</td>
+    <td align="center">Jonathan</td>
+    <td align="center">[x]</td>
   </tr>
   <tr>
     <td>Understand how to obtain <b>Table 3</b></td>
-    <td style="text-align: center;">Tom</td>
-    <td style="text-align: center;">[ ]</td>
+    <td align="center">Tom</td>
+    <td align="center">[ ]</td>
   </tr>
   <tr>
     <td>Bonus: Reproduce <b>Table 3</b></td>
-    <td style="text-align: center;">Tom</td>
-    <td style="text-align: center;">[ ]</td>
+    <td align="center">Tom</td>
+    <td align="center">[ ]</td>
   </tr>
 </table>
-<p>The models to use are in fact the models <b>iCTH670_w_GLGC</b> and <b>iCTH670_wo_GLGC</b></p>
+<p>The models to use are in fact the models <b>iCTH670_w_GLGC</b> and <b>iCTH670_wo_GLGC</b> in the authors' GitHub repository. For clarity, thex have been renamed to <b>iCTH669_w_GLGC</b> and <b>iCTH669_wo_GLGC</b> in this repository, under <a href="Models">Models</a></p>
 
 <p>Additional tasks will be added each week based on progress and new insights.</p>
