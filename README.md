@@ -15,7 +15,7 @@
   </tr>
   <tr>
     <td>Read the paper</td>
-    <td style="text-align: center;">Everyone</td>
+    <td width="250"; style="text-align: center;">Everyone</td>
     <td style="text-align: center;">[x]</td>
   </tr>
   <tr>
