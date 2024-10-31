@@ -9,9 +9,9 @@
 
 <table>
   <tr>
-    <th width="2000">Task</th>
-    <th width="2cm"; text-align: center;">Person</th>
-    <th width="2cm": 3cm; text-align: center;">Status</th>
+    <th width="1500">Task</th>
+    <th width="250"; text-align: center;">Person</th>
+    <th width="250": 3cm; text-align: center;">Status</th>
   </tr>
   <tr>
     <td>Read the paper</td>
