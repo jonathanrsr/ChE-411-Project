@@ -1,6 +1,6 @@
 <h1>ChE-411: Project</h1>
 
-<h2>Introduction</h2>
+<h2>Introduction 📜</h2>
 <p>This project aims to reproduce results from the paper <strong>"A detailed genome-scale metabolic model of <em>Clostridium thermocellum</em> investigates sources of pyrophosphate for driving glycolysis"</strong>.</p>
 
 <h2>Informations</h2>
