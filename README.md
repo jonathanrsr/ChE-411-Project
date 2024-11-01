@@ -44,7 +44,7 @@
     <th width="250">Status</th>
   </tr>
   <tr>
-    <td>Redesign PowerPoint presentation</td>
+    <td><a href="Paper review.pptx">Redesign PowerPoint presentation</a></td>
     <td align="center">Everyone</td>
     <td align="center">[x]</td>
   </tr>
