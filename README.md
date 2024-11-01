@@ -59,7 +59,7 @@
     <td align="center">[ ]</td>
   </tr>
   <tr>
-    <td>Reproduce <b>Table 2</b></td>
+    <td><a href="Results/Jonathan/Table 2.xlsx"><b>Reproduce Table 2</b></a></td>
     <td align="center">Jonathan</td>
     <td align="center">[x]</td>
   </tr>
@@ -92,4 +92,4 @@
 
 <h3>Scripts</h3>
 <p>Contains all the scripts used in this project:</p>
-<p><b>generate_memote_reports.py:</b> python script to generate the MEMOTE reports of the models contained in the <i>Models</i> folder.</p>
+<p><b>generate_memote_reports.py:</b> python script to generate the MEMOTE reports of the models contained in the <i>Models</i> folder. For this script to work, the python package <i>memote</i> must be installed via <i>pip install memote</i>.</p>
