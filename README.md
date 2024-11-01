@@ -76,3 +76,7 @@
 </table>
 
 <p>Additional tasks will be added each week based on progress and new insights.</p>
+
+<h2>Content of this repository</h2>
+<h3>.Archives</h3>
+<p>Contains old files, such as previous presentation or unused models and memote reports, only use as a tracking purpose.</p>
