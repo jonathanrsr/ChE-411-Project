@@ -66,7 +66,7 @@
   <tr>
     <td>Understand how to obtain <b>Table 3</b></td>
     <td align="center">Tom</td>
-    <td align="center">[ ]</td>
+    <td align="center">[x]</td>
   </tr>
   <tr>
     <td>Bonus: Reproduce <b>Table 3</b></td>
