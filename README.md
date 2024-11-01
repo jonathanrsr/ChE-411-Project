@@ -59,7 +59,7 @@
     <td align="center">[ ]</td>
   </tr>
   <tr>
-    <td><a href="Results/Jonathan/Table 2.xlsx"Reproduce <b></a>Table 2</b></td>
+    <td><a href="Results/Jonathan/Table 2.xlsx"><b>Reproduce Table 2</b></a></td>
     <td align="center">Jonathan</td>
     <td align="center">[x]</td>
   </tr>
