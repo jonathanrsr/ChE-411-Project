@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <sbml xmlns="http://www.sbml.org/sbml/level3/version2/core" level="3" sboTerm="SBO:0000624" version="2" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sbml="http://www.sbml.org/sbml/level3/version2/core" xmlns:xhtml="http://www.w3.org/1999/xhtml" fbc:required="false">
-  <model id="iCTH665" name="iCTH665" fbc:strict="true">
+  <model id="iCTH669" name="iCTH669" fbc:strict="true">
     <notes>
       <xhtml:body>
         <xhtml:p>This genome-scale model of Clostridium thermocellum is built upon the genome-scale model iCBI665 presented in: </xhtml:p>
@@ -9,7 +9,7 @@
         <xhtml:p>Year: 2020 </xhtml:p>
         <xhtml:p> Journal: Fronteirs in Bioengineering and Biotechnology </xhtml:p>
         <xhtml:p> </xhtml:p>
-        <xhtml:p>This new model is named iCTH664, as indicated above.</xhtml:p>
+        <xhtml:p>This new model is named iCTH669, as indicated above.</xhtml:p>
         <xhtml:p>Model Statistics: </xhtml:p>
         <xhtml:p>Metabolites: 834</xhtml:p>
         <xhtml:p>Genes: 665</xhtml:p>
