@@ -64,7 +64,7 @@
     <td align="center">[x]</td>
   </tr>
   <tr>
-    <td>Understand how to obtain <b>Table 3</b></td>
+    <td><a href="Results/Tom/Table 3 results.docx">Understand how to obtain <b>Table 3</b></a></td>
     <td align="center">Tom</td>
     <td align="center">[x]</td>
   </tr>
