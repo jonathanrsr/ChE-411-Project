@@ -80,3 +80,13 @@
 <h2>Content of this repository</h2>
 <h3>.Archives</h3>
 <p>Contains old files, such as previous presentation or unused models and memote reports, only use as a tracking purpose.</p>
+
+<h3>Models</h3>
+<p>Contains the metabolism models <i>iCBI665</i> and <i>iCTH669</i> as .sbml files, with and without GlgC (Glucose-1-phosphate adenylyltransferase).</p>
+
+<h3>Reports</h3>
+<p>Contains the MEMOTE reports for the <i>iCBI665</i> and <i>iCTH669</i>.</p>
+
+<h3>Scripts</h3>
+<p>Contains all the scripts used in this project:</p>
+<p><b>generate_memote_reports.py:</b> python script to generate the MEMOTE reports of the models contained in the <i>Models</i> folder.</p>
