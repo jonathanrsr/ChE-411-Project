@@ -1,14 +1,14 @@
 <h1>ChE-411: Project</h1>
 
-<h2>Introduction 📜</h2>
+<h2>Introduction 🌟</h2>
 <p>This project aims to reproduce results from the paper <strong>"A detailed genome-scale metabolic model of <em>Clostridium thermocellum</em> investigates sources of pyrophosphate for driving glycolysis"</strong>.</p>
 
-<h2>Informations ℹ️</h2>
+<h2>Informations 📋</h2>
 <p>The paper on which this project is based on can be found <a href="Paper.pdf">here</a>. No report is expected, only a PowerPoint presentation.
 <p>The metabolic models the authors proposed are publicly available through the Maranas Group's <a href="https://github.com/maranasgroup/iCTH669">GitHub repository</a>.
 <p>The models to use are in fact the models <i>iCTH670_w_GLGC</i> and <i>iCTH670_wo_GLGC</i> in the authors' GitHub repository. For clarity, they have been renamed to <i>iCTH669_w_GLGC</i> and <i>iCTH669_wo_GLGC</i> in this repository, in the <a href="Models">Models</a> folder.</p>
 
-<h2>Tasks (Updated Every Thursday)</h2>
+<h2>Tasks 🛠️ (Updated Every Thursday)</h2>
 
 <h3>Week 5 (October 11th, 2024)</h3>
 
@@ -77,7 +77,7 @@
 
 <p>Additional tasks will be added each week based on progress and new insights.</p>
 
-<h2>Content of this repository</h2>
+<h2>Content of this repository 📂</h2>
 <h3>.Archives</h3>
 <p>Contains old files, such as previous presentation or unused models and memote reports, only use as a tracking purpose.</p>
 
