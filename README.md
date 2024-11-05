@@ -75,6 +75,21 @@
   </tr>
 </table>
 
+<h3>Week 8 (November 5th, 2024)</h3>
+
+<table>
+  <tr>
+    <th width="1500"; align="left">Task</th>
+    <th width="250">Person</th>
+    <th width="250">Status</th>
+  <tr>
+    <td></td>
+    <td align="center"></td>
+    <td align="center">[ ]</td>
+  </tr>
+</table>
+
+
 <p>Additional tasks will be added each week based on progress and new insights.</p>
 
 <h2>Content of this repository 📂</h2>
