@@ -49,7 +49,7 @@
     <td align="center">[x]</td>
   </tr>
   <tr>
-    <td>Reproduce <b>Figure 2 a)</b> and <b>Figure 2 b)</b> using the method described in the paper</td>
+    <td>Reproduce <b>Figure 2 a)</b> and <b>Figure 2 b)</b> (with other metabolites like lactate) using the method described in the paper</td>
     <td align="center">Marija</td>
     <td align="center">[ ]</td>
   </tr>
