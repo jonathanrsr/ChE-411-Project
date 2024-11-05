@@ -59,7 +59,7 @@
     <td align="center">[ ]</td>
   </tr>
   <tr>
-    <td><a href="Results/Jonathan/Table 2.xlsx"><b>Reproduce Table 2</b></a></td>
+    <td><a href="Results/Jonathan/Table 2.xlsx">Reproduce <b>Table 2</b></a></td>
     <td align="center">Jonathan</td>
     <td align="center">[x]</td>
   </tr>
@@ -83,9 +83,24 @@
     <th width="250">Person</th>
     <th width="250">Status</th>
   <tr>
-    <td></td>
+    <td>Reproduce plot for <b>Figure 3</b></td>
     <td align="center"></td>
     <td align="center">[ ]</td>
+  </tr>
+  <tr>
+    <td>Understand <b>Table 4</b></td>
+    <td></td>
+    <td>[ ]</td>
+  </tr>
+  <tr>
+    <td>Discuss what was intersting, what can we do more with the model...</td>
+    <td></td>
+    <td>[ ]</td>
+  </tr>
+  <tr>
+    <td>Redo the presentation to include more biological background</td>
+    <td></td>
+    <td>[ ]</td>
   </tr>
 </table>
 
