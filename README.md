@@ -89,18 +89,18 @@
   </tr>
   <tr>
     <td>Understand <b>Table 4</b></td>
-    <td></td>
-    <td>[ ]</td>
+    <td align="center"></td>
+    <td align="center">[ ]</td>
   </tr>
   <tr>
     <td>Discuss what was intersting, what can we do more with the model...</td>
-    <td></td>
-    <td>[ ]</td>
+    <td align="center"></td>
+    <td align="center">[ ]</td>
   </tr>
   <tr>
     <td>Redo the presentation to include more biological background</td>
-    <td></td>
-    <td>[ ]</td>
+    <td align="center"></td>
+    <td align="center">[ ]</td>
   </tr>
 </table>
 
