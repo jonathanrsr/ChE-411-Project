@@ -94,12 +94,12 @@
   </tr>
   <tr>
     <td>Discuss what was intersting, what can we do more with the model...</td>
-    <td align="center"></td>
+    <td align="center">Everyone</td>
     <td align="center">[ ]</td>
   </tr>
   <tr>
     <td>Redo the presentation to include more biological background</td>
-    <td align="center"></td>
+    <td align="center">Everyone</td>
     <td align="center">[ ]</td>
   </tr>
 </table>
