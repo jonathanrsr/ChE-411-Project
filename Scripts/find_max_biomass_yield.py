@@ -1,9 +1,38 @@
 from cobra.io import read_sbml_model
 import pandas as pd
 
-# Reaction R00925 was deleted since it doesn't appear in the model
+def calc_max_biomass_yield(model_path: str) -> pd.DataFrame:
+    """
+    Calculate the maximum biomass yield for multiple strains using a metabolic model.
 
-def calc_max_biomass_yield(model_path):
+    This function loads a COBRA model from an SBML file, applies specific reaction knockouts 
+    for each strain, calculates the maximum biomass yield using linear optimization, 
+    and saves the results to an Excel file.
+
+    Parameters:
+    ----------
+    model_path : str
+        Path to the SBML file containing the metabolic model.
+
+    Returns:
+    -------
+    pandas.DataFrame
+        A DataFrame containing the strain names and their corresponding maximum biomass yields.
+
+    Strain Details:
+    ---------------
+    - Each strain may have specific reaction knockouts, which are applied before optimization.
+    - The reaction bounds for knockouts are set to zero for both lower and upper bounds.
+    - The reaction "EXCH_cellb_e" is fixed to simulate a cellobiose uptake rate of 
+      -2.92144383597262 mol/gDW/h, which correspond to 1 g/dW/h.
+    - Some strains in the original code had the reaction R00925 set to 0, which was deleted in this code since it doesn't appear in the model.
+
+    Notes:
+    ------
+    - Reaction bounds are reset to defaults (0 to 1000) after each strain's calculations 
+      to ensure independence between strains.
+    - The Excel file is saved using the openpyxl library; ensure it is installed.
+    """
     strains = {
         "LL1004": {},
         "AVM008": {"PPA": 0.0, "PPAna": 0.0},
