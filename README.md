@@ -83,7 +83,7 @@
     <th width="250">Status</th>
   <tr>
     <td>Reproduce plot for <b>Figure 3</b></td>
-    <td align="center"></td>
+    <td align="center">Jonathan</td>
     <td align="center">[ ]</td>
   </tr>
   <tr>
