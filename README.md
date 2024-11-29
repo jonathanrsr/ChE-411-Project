@@ -117,7 +117,7 @@
 <p>Contains the MEMOTE reports for the <i>iCBI665</i> and <i>iCTH669</i>.</p>
 
 <h3>Results</h3>
-<p>Contains all results generated for this project, with each member having its own folder for clarity.</p>
+<p>Contains all results generated for this project.</p>
 
 <h3>Scripts</h3>
 <p>Contains all the scripts used in this project:</p>
