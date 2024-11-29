@@ -38,13 +38,13 @@ def calc_max_biomass_yield(model_path: str) -> pd.DataFrame:
         "AVM008": {"PPA": 0.0, "PPAna": 0.0},
         "AVM051": {"GLGC": 0.0},
         "AVM003": {"PPDK": 0.0},
-        "AVM059": {"PPAKr": 0.0, "PACPT": 0.0, "ACADT": 0.0, "ACADCOAT": 0.0},
+        "AVM059": {"PPAKr": 0.0, "PACPT": 0.0},
         "AVM053": {"PPA": 0.0, "PPAna": 0.0, "GLGC": 0.0},
         "AVM052": {"PPDK": 0.0, "GLGC": 0.0},
-        "AVM060": {"PPAKr": 0.0, "PACPT": 0.0, "ACADT": 0.0, "ACADCOAT": 0.0, "GLGC": 0.0},
+        "AVM060": {"PPAKr": 0.0, "PACPT": 0.0, "GLGC": 0.0},
         "AVM056": {"PPA": 0.0, "PPAna": 0.0, "PPDK": 0.0, "GLGC": 0.0},
         "AVM061": {"PPA": 0.0, "PPAna": 0.0, "PPDK": 0.0, "GLGC": 0.0, 
-                   "PPAKr": 0.0, "PACPT": 0.0, "ACADT": 0.0, "ACADCOAT": 0.0},
+                   "PPAKr": 0.0, "PACPT": 0.0},
     }
 
     # Initialize an empty DataFrame to store results
@@ -81,6 +81,6 @@ def calc_max_biomass_yield(model_path: str) -> pd.DataFrame:
     # Return the results DataFrame
     return results
 
-model_path = "Models\\iCTH669_w_GLGC.sbml"
+model_path = "Models\\\\iCTH669_w_GLGC.sbml"
 biomass_results = calc_max_biomass_yield(model_path)
 print(biomass_results)
