@@ -53,4 +53,4 @@ def generate_reports(model_names: list[str] = []) -> None:
     except subprocess.CalledProcessError as e:
         print("An error occurred:", e.stderr)
 
-generate_reports()
+generate_reports(["iCTH669_w_GLGC"])
