@@ -120,5 +120,6 @@
 <p>Contains all results generated for this project.</p>
 
 <h3>Scripts</h3>
-<p>Contains all the scripts used in this project:</p>
+<p>Contains all the scripts used in this project:\n</p>
+
 <p><b>generate_memote_reports.py:</b> python script to generate the MEMOTE reports of the models contained in the <i>Models</i> folder. For this script to work, the python package <i>memote</i> must be installed via <i>pip install memote</i>.</p>
