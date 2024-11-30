@@ -117,8 +117,11 @@
 <p>Contains the MEMOTE reports for the <i>iCBI665</i> and <i>iCTH669</i>.</p>
 
 <h3>Results</h3>
-<p>Contains all results generated for this project, with each member having its own folder for clarity.</p>
+<p>Contains all results generated for this project.</p>
 
 <h3>Scripts</h3>
 <p>Contains all the scripts used in this project:</p>
-<p><b>generate_memote_reports.py:</b> python script to generate the MEMOTE reports of the models contained in the <i>Models</i> folder. For this script to work, the python package <i>memote</i> must be installed via <i>pip install memote</i>.</p>
+
+<p><a href="Scripts\MEMOTE reports"><b>generate_memote_reports.py:</b></a> python script to generate the MEMOTE reports of the models contained in the <i>Models</i> folder. For this script to work, the python package <i>memote</i> must be installed via <i>pip install memote</i>.</p>
+
+<p><a href="Scripts\Biomass yields"><b>biomass_yield_"strain".py</b></a> python scripts to calculate the maximum biomass flux and yield for each strain. For this script to work, the python package <i>cobra</i> must by installed via <ip>pip install cobra</ip> and be sure to have the models <i>iCTH669</i> with and without GlgC.</p>
