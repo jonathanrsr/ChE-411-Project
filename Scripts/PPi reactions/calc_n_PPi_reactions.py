@@ -133,7 +133,7 @@ def find_ppi_reactions(strain_model: cobra.Model) -> dict:
                 n_ppi_reactions += 1
                 break # Break the loop since the PPi metabolite was found
 
-    print(f" - {n_ppi_reactions} PPi reactions found in the model ({n_ppi_producers} producers, {n_ppi_consumers} consumers and {n_ppi_bidirectional} bidirectionnal).")
+    print(f" - {n_ppi_reactions} PPi reactions found in the model ({n_ppi_producers} producers, {n_ppi_consumers} consumers and {n_ppi_bidirectional} bidirectionnals).")
     return ppi_reactions
 
 strains: dict = load_strains()
