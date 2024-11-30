@@ -53,7 +53,7 @@
     <td align="center">[ ]</td>
   </tr>
   <tr>
-    <td>Reproduce <b>Figure 2</b> by minimizing cellobiose uptake for a given ethanol yield</td>
+    <td>Reproduce <b>Figure 2</b> by minimizing cellobiose uptake for a given ethanol yield (optional)</td>
     <td align="center">César</td>
     <td align="center">[ ]</td>
   </tr>
