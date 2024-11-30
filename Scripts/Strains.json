@@ -1,0 +1,116 @@
+{
+    "AVM003": {
+      "Knockouts": {
+        "PPDK": 0.0,
+        "BIOMASS_CELLOBIOSE": 0.2243808
+      },
+      "glgC model": true,
+      "In vivo yield": 0.22438,
+      "In vivo yield error": 0.00567
+    },
+    "AVM008": {
+      "Knockouts": {
+        "PPA": 0.0,
+        "PPAna": 0.0,
+        "BIOMASS_CELLOBIOSE": 0.258388141
+      },
+      "glgC model": true,
+      "In vivo yield": 0.25839,
+      "In vivo yield error": 0.01256
+    },
+    "AVM051": {
+      "Knockouts": {
+        "GLGC": 0.0,
+        "BIOMASS_CELLOBIOSE": 0.214335986
+      },
+      "glgC model": false,
+      "In vivo yield": 0.21434,
+      "In vivo yield error": 0.0061
+    },
+    "AVM052": {
+      "Knockouts": {
+        "PPDK": 0.0,
+        "GLGC": 0.0,
+        "BIOMASS_CELLOBIOSE": 0.190249249
+      },
+      "glgC model": false,
+      "In vivo yield": 0.19025,
+      "In vivo yield error": 0.00774
+    },
+    "AVM053": {
+      "Knockouts": {
+        "PPA": 0.0,
+        "PPAna": 0.0,
+        "GLGC": 0.0,
+        "BIOMASS_CELLOBIOSE": 0.207158858
+      },
+      "glgC model": false,
+      "In vivo yield": 0.20716,
+      "In vivo yield error": 0.00548
+    },
+    "AVM056": {
+      "Knockouts": {
+        "PPA": 0.0,
+        "PPAna": 0.0,
+        "PPDK": 0.0,
+        "GLGC": 0.0,
+        "BIOMASS_CELLOBIOSE": 0.207269625
+      },
+      "glgC model": false,
+      "In vivo yield": 0.20727,
+      "In vivo yield error": 0.00365
+    },
+    "AVM059": {
+      "Knockouts": {
+        "PPAKr": 0.0,
+        "ACS": 0.0,
+        "PACPT": 0.0,
+        "ACADT": 0.0,
+        "ACADCOAT": 0.0,
+        "BIOMASS_CELLOBIOSE": 0.258526183
+      },
+      "glgC model": true,
+      "In vivo yield": 0.25853,
+      "In vivo yield error": 0.00618
+    },
+    "AVM060": {
+      "Knockouts": {
+        "PPAKr": 0.0,
+        "ACS": 0.0,
+        "PACPT": 0.0,
+        "ACADT": 0.0,
+        "ACADCOAT": 0.0,
+        "GLGC": 0.0,
+        "BIOMASS_CELLOBIOSE": 0.198452575
+      },
+      "glgC model": false,
+      "In vivo yield": 0.19845,
+      "In vivo yield error": 0.01467
+    },
+    "AVM061": {
+      "Knockouts": {
+        "PPA": 0.0,
+        "PPAna": 0.0,
+        "PPDK": 0.0,
+        "GLGC": 0.0,
+        "PPAKr": 0.0,
+        "ACS": 0.0,
+        "PACPT": 0.0,
+        "ACADT": 0.0,
+        "ACADCOAT": 0.0,
+        "BIOMASS_CELLOBIOSE": 0.176268057
+      },
+      "glgC model": false,
+      "In vivo yield": 0.17627,
+      "In vivo yield error": 0.00396
+    },
+    "LL1004": {
+      "Knockouts": {
+        "BIOMASS_CELLOBIOSE": 0.281979407
+      },
+      "glgC model": true,
+      "In vivo yield": 0.28198,
+      "In vivo yield error": 0.01401
+    }
+  }
+  
