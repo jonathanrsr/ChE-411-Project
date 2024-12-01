@@ -1,10 +1,16 @@
 {
     "AVM003": {
+        "Number of PPi reactions": 75,
+        "Number of PPi producers": 65,
+        "Number of low PPi producers": 32,
+        "Number of medium PPi producers": 16,
+        "Number of high PPi producers": 18,
+        "Number of PPi consumers": 9,
+        "Number of low PPi consumers": 7,
+        "Number of medium PPi consumers": 2,
+        "Number of high PPi consumers": 1,
+        "Number of PPi bidirectional": 1,
         "PPi reactions": {
-            "Number of PPi reactions": 74,
-            "Number of PPi producers": 42,
-            "Number of PPi consumers": 7,
-            "Number of PPi bidirectional": 26,
             "NA_biomass": {
                 "Max flux": 0.23549320000000074,
                 "Max production": 0.11821758640000037,
@@ -27,7 +33,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ADK2": {
                 "Max flux": 0.7097899399954792,
@@ -43,7 +49,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "FMNAT": {
                 "Max flux": 3.9753409447558816,
@@ -51,7 +57,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ADPT": {
                 "Max flux": 0.42618288647907543,
@@ -83,7 +89,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "UAGP2UAG": {
                 "Max flux": 0.07758187569543697,
@@ -107,7 +113,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP3": {
                 "Max flux": 3.9753409447558385,
@@ -115,7 +121,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP4": {
                 "Max flux": 3.9753409447558385,
@@ -123,7 +129,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ASNS2": {
                 "Max flux": 1.719380327367445,
@@ -131,7 +137,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "SADT": {
                 "Max flux": 3.4816450553785794,
@@ -147,7 +153,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GLGC": {
                 "Max flux": 3.975340944755831,
@@ -155,7 +161,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "UPPRT": {
                 "Max flux": 0.7097899399954646,
@@ -163,7 +169,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ATPPRT": {
                 "Max flux": 0.4064254593819605,
@@ -195,7 +201,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GMPS": {
                 "Max flux": 0.6815493347835265,
@@ -203,7 +209,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GMPS2": {
                 "Max flux": 0.6456783171633086,
@@ -211,7 +217,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "DMATT": {
                 "Max flux": -3.282115794879795e-18,
@@ -227,7 +233,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP5": {
                 "Max flux": 3.97534094475582,
@@ -235,7 +241,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP6": {
                 "Max flux": 3.975340944755844,
@@ -243,7 +249,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP7": {
                 "Max flux": 3.9753409447558177,
@@ -251,7 +257,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP8": {
                 "Max flux": 3.9753409447558705,
@@ -259,7 +265,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ARGSS": {
                 "Max flux": 1.2673556014556724,
@@ -283,7 +289,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "PANTS": {
                 "Max flux": 1.316297712545439,
@@ -315,7 +321,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ALATRS": {
                 "Max flux": 0.11015964823357102,
@@ -475,7 +481,7 @@
                 "Min flux": 0.0,
                 "Min production": -9.75956415071767e-17,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Consumer"
             },
             "PPNCL2": {
                 "Max flux": 1.3207943483971245e-15,
@@ -483,7 +489,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ASPTRS": {
                 "Max flux": 0.061590809541082925,
@@ -571,7 +577,7 @@
                 "Min flux": 0.0,
                 "Min production": -0.2812997488534928,
                 "Stoichiometry": -1.0,
-                "Type": "Bidirectional"
+                "Type": "Consumer"
             },
             "GRTT": {
                 "Max flux": -3.2821157948797953e-18,
@@ -603,16 +609,22 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             }
         }
     },
     "AVM008": {
+        "Number of PPi reactions": 74,
+        "Number of PPi producers": 65,
+        "Number of low PPi producers": 32,
+        "Number of medium PPi producers": 18,
+        "Number of high PPi producers": 16,
+        "Number of PPi consumers": 8,
+        "Number of low PPi consumers": 6,
+        "Number of medium PPi consumers": 1,
+        "Number of high PPi consumers": 2,
+        "Number of PPi bidirectional": 1,
         "PPi reactions": {
-            "Number of PPi reactions": 73,
-            "Number of PPi producers": 42,
-            "Number of PPi consumers": 7,
-            "Number of PPi bidirectional": 25,
             "NA_biomass": {
                 "Max flux": 0.2830076000000001,
                 "Max production": 0.14206981520000003,
@@ -643,7 +655,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "FMNAT": {
                 "Max flux": 8.672644115426381,
@@ -651,7 +663,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ADPT": {
                 "Max flux": 0.3898747376873022,
@@ -691,7 +703,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "UAGP2UAG": {
                 "Max flux": 0.09323522056714992,
@@ -715,7 +727,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP3": {
                 "Max flux": 8.672644115426486,
@@ -723,7 +735,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP4": {
                 "Max flux": 8.67264411542685,
@@ -731,7 +743,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ASNS2": {
                 "Max flux": 1.5409142780824518,
@@ -739,7 +751,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "SADT": {
                 "Max flux": 3.0224242396874472,
@@ -755,7 +767,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GLGC": {
                 "Max flux": 13.74071293656741,
@@ -763,7 +775,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "UPPRT": {
                 "Max flux": 0.6396540410657613,
@@ -771,7 +783,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ATPPRT": {
                 "Max flux": 0.3682176342360456,
@@ -803,7 +815,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GMPS": {
                 "Max flux": 0.6014233339796079,
@@ -811,7 +823,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GMPS2": {
                 "Max flux": 0.5713521672806228,
@@ -819,7 +831,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "DMATT": {
                 "Max flux": -3.282115794879795e-18,
@@ -835,7 +847,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP5": {
                 "Max flux": 8.67264411542661,
@@ -843,7 +855,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP6": {
                 "Max flux": 8.672644115426541,
@@ -851,7 +863,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP7": {
                 "Max flux": 8.672644115426762,
@@ -859,7 +871,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP8": {
                 "Max flux": 8.672644115426744,
@@ -867,7 +879,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ARGSS": {
                 "Max flux": 1.1459866035865587,
@@ -891,7 +903,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "PANTS": {
                 "Max flux": 1.184115376613363,
@@ -923,7 +935,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ALATRS": {
                 "Max flux": 0.1323860632214738,
@@ -1083,7 +1095,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "PPNCL2": {
                 "Max flux": 1.4103897330304904e-16,
@@ -1091,7 +1103,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ASPTRS": {
                 "Max flux": 0.07401770917495275,
@@ -1179,7 +1191,7 @@
                 "Min flux": 0.0,
                 "Min production": -0.2581144081972134,
                 "Stoichiometry": -1.0,
-                "Type": "Bidirectional"
+                "Type": "Consumer"
             },
             "GRTT": {
                 "Max flux": -3.2821157948797953e-18,
@@ -1203,16 +1215,22 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             }
         }
     },
     "AVM051": {
+        "Number of PPi reactions": 73,
+        "Number of PPi producers": 63,
+        "Number of low PPi producers": 31,
+        "Number of medium PPi producers": 17,
+        "Number of high PPi producers": 17,
+        "Number of PPi consumers": 8,
+        "Number of low PPi consumers": 7,
+        "Number of medium PPi consumers": 1,
+        "Number of high PPi consumers": 2,
+        "Number of PPi bidirectional": 2,
         "PPi reactions": {
-            "Number of PPi reactions": 72,
-            "Number of PPi producers": 41,
-            "Number of PPi consumers": 7,
-            "Number of PPi bidirectional": 25,
             "NA_biomass": {
                 "Max flux": 0.22629599999999997,
                 "Max production": 0.11360059199999999,
@@ -1235,7 +1253,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ADK2": {
                 "Max flux": 0.5805335985017405,
@@ -1251,7 +1269,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "FMNAT": {
                 "Max flux": 7.99899732111982,
@@ -1259,7 +1277,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ADPT": {
                 "Max flux": 0.357642237084178,
@@ -1299,7 +1317,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "UAGP2UAG": {
                 "Max flux": 0.07455191123299781,
@@ -1323,7 +1341,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP3": {
                 "Max flux": 7.9989973211201075,
@@ -1331,7 +1349,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP4": {
                 "Max flux": 7.998997321119958,
@@ -1339,7 +1357,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ASNS2": {
                 "Max flux": 1.4186414731894208,
@@ -1347,7 +1365,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "SADT": {
                 "Max flux": 2.78021317125824,
@@ -1363,7 +1381,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "UPPRT": {
                 "Max flux": 0.5888269356231907,
@@ -1371,7 +1389,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ATPPRT": {
                 "Max flux": 0.3388930125184099,
@@ -1403,7 +1421,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GMPS": {
                 "Max flux": 0.5529616421846643,
@@ -1411,7 +1429,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GMPS2": {
                 "Max flux": 0.525313560075437,
@@ -1419,7 +1437,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "DMATT": {
                 "Max flux": -2.8496283663241336e-18,
@@ -1435,7 +1453,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP5": {
                 "Max flux": 7.998997321119899,
@@ -1443,7 +1461,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP6": {
                 "Max flux": 7.998997321119749,
@@ -1451,7 +1469,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP7": {
                 "Max flux": 7.998997321119879,
@@ -1459,7 +1477,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP8": {
                 "Max flux": 7.998997321120002,
@@ -1467,7 +1485,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ARGSS": {
                 "Max flux": 1.055041826120126,
@@ -1491,7 +1509,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "PANTS": {
                 "Max flux": 1.0914524773801906,
@@ -1523,7 +1541,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ALATRS": {
                 "Max flux": 0.10585735705601769,
@@ -1763,7 +1781,7 @@
                 "Min flux": 0.0,
                 "Min production": -0.23806539646190442,
                 "Stoichiometry": -1.0,
-                "Type": "Bidirectional"
+                "Type": "Consumer"
             },
             "GRTT": {
                 "Max flux": -2.8496283663241332e-18,
@@ -1787,7 +1805,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "PPAna": {
                 "Max flux": 0.0007652464727742597,
@@ -1795,16 +1813,22 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             }
         }
     },
     "AVM052": {
+        "Number of PPi reactions": 68,
+        "Number of PPi producers": 63,
+        "Number of low PPi producers": 31,
+        "Number of medium PPi producers": 17,
+        "Number of high PPi producers": 16,
+        "Number of PPi consumers": 4,
+        "Number of low PPi consumers": 2,
+        "Number of medium PPi consumers": 2,
+        "Number of high PPi consumers": 1,
+        "Number of PPi bidirectional": 1,
         "PPi reactions": {
-            "Number of PPi reactions": 67,
-            "Number of PPi producers": 41,
-            "Number of PPi consumers": 3,
-            "Number of PPi bidirectional": 24,
             "NA_biomass": {
                 "Max flux": 0.2054204,
                 "Max production": 0.10312104080000001,
@@ -1827,7 +1851,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ADK2": {
                 "Max flux": 0.7137776401614563,
@@ -1843,7 +1867,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "FMNAT": {
                 "Max flux": 4.309740768734637,
@@ -1851,7 +1875,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ADPT": {
                 "Max flux": 0.4247750053940653,
@@ -1883,7 +1907,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "UAGP2UAG": {
                 "Max flux": 0.06767456528726494,
@@ -1899,7 +1923,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP2": {
                 "Max flux": 4.309740768734643,
@@ -1907,7 +1931,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP3": {
                 "Max flux": 4.309740768734616,
@@ -1915,7 +1939,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP4": {
                 "Max flux": 4.309740768734642,
@@ -1923,7 +1947,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ASNS2": {
                 "Max flux": 1.7298517466649226,
@@ -1931,7 +1955,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "SADT": {
                 "Max flux": 3.4949090842186843,
@@ -1947,7 +1971,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "UPPRT": {
                 "Max flux": 0.7137776401614587,
@@ -1955,7 +1979,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ATPPRT": {
                 "Max flux": 0.4085553104711266,
@@ -1987,7 +2011,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GMPS": {
                 "Max flux": 0.6833114447648911,
@@ -1995,7 +2019,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GMPS2": {
                 "Max flux": 0.6473476845141153,
@@ -2003,7 +2027,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP1": {
                 "Max flux": 4.309740768734637,
@@ -2011,7 +2035,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP5": {
                 "Max flux": 4.3097407687346445,
@@ -2019,7 +2043,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP6": {
                 "Max flux": 4.309740768734653,
@@ -2027,7 +2051,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP7": {
                 "Max flux": 4.309740768734631,
@@ -2035,7 +2059,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP8": {
                 "Max flux": 4.309740768734643,
@@ -2043,7 +2067,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ARGSS": {
                 "Max flux": 1.2749919213530254,
@@ -2067,7 +2091,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "PANTS": {
                 "Max flux": 1.3282020343617051,
@@ -2099,7 +2123,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ALATRS": {
                 "Max flux": 0.09609211223083916,
@@ -2323,7 +2347,7 @@
                 "Min flux": 0.0,
                 "Min production": -0.28430518929455145,
                 "Stoichiometry": -1.0,
-                "Type": "Bidirectional"
+                "Type": "Consumer"
             },
             "HXPRT": {
                 "Max flux": -0.025792092686577495,
@@ -2347,16 +2371,22 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             }
         }
     },
     "AVM053": {
+        "Number of PPi reactions": 72,
+        "Number of PPi producers": 62,
+        "Number of low PPi producers": 30,
+        "Number of medium PPi producers": 17,
+        "Number of high PPi producers": 16,
+        "Number of PPi consumers": 9,
+        "Number of low PPi consumers": 7,
+        "Number of medium PPi consumers": 1,
+        "Number of high PPi consumers": 2,
+        "Number of PPi bidirectional": 1,
         "PPi reactions": {
-            "Number of PPi reactions": 71,
-            "Number of PPi producers": 41,
-            "Number of PPi consumers": 7,
-            "Number of PPi bidirectional": 24,
             "NA_biomass": {
                 "Max flux": 0.2179007999999928,
                 "Max production": 0.10938620159999637,
@@ -2387,7 +2417,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "FMNAT": {
                 "Max flux": 8.513322502012361,
@@ -2395,7 +2425,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ADPT": {
                 "Max flux": 0.37784242520372785,
@@ -2435,7 +2465,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "UAGP2UAG": {
                 "Max flux": 0.07178616104217136,
@@ -2451,7 +2481,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP2": {
                 "Max flux": 8.513322502012707,
@@ -2459,7 +2489,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP3": {
                 "Max flux": 8.513322502012283,
@@ -2467,7 +2497,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP4": {
                 "Max flux": 8.513322502012485,
@@ -2475,7 +2505,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ASNS2": {
                 "Max flux": 1.5061539394254626,
@@ -2483,7 +2513,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "SADT": {
                 "Max flux": 2.9482985272468483,
@@ -2499,7 +2529,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "UPPRT": {
                 "Max flux": 0.6250495611950382,
@@ -2507,7 +2537,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ATPPRT": {
                 "Max flux": 0.3596457906385976,
@@ -2539,7 +2569,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GMPS": {
                 "Max flux": 0.586011556112161,
@@ -2547,7 +2577,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GMPS2": {
                 "Max flux": 0.5567109783065369,
@@ -2555,7 +2585,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "DMATT": {
                 "Max flux": -2.8496283663241336e-18,
@@ -2571,7 +2601,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP5": {
                 "Max flux": 8.51332250201216,
@@ -2579,7 +2609,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP6": {
                 "Max flux": 8.513322502012397,
@@ -2587,7 +2617,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP7": {
                 "Max flux": 8.51332250201199,
@@ -2595,7 +2625,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP8": {
                 "Max flux": 8.513322502012736,
@@ -2603,7 +2633,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ARGSS": {
                 "Max flux": 1.1201106426552916,
@@ -2627,7 +2657,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "PANTS": {
                 "Max flux": 1.160646213836508,
@@ -2659,7 +2689,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ALATRS": {
                 "Max flux": 0.10193022761512312,
@@ -2819,7 +2849,7 @@
                 "Min flux": 0.0,
                 "Min production": -8.278897025952448e-17,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Consumer"
             },
             "ASPTRS": {
                 "Max flux": 0.056989699369873956,
@@ -2907,7 +2937,7 @@
                 "Min flux": 0.0,
                 "Min production": -0.25337269351230585,
                 "Stoichiometry": -1.0,
-                "Type": "Bidirectional"
+                "Type": "Consumer"
             },
             "GRTT": {
                 "Max flux": -2.8496283663241332e-18,
@@ -2931,16 +2961,22 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             }
         }
     },
     "AVM056": {
+        "Number of PPi reactions": 66,
+        "Number of PPi producers": 61,
+        "Number of low PPi producers": 34,
+        "Number of medium PPi producers": 13,
+        "Number of high PPi producers": 15,
+        "Number of PPi consumers": 4,
+        "Number of low PPi consumers": 3,
+        "Number of medium PPi consumers": 1,
+        "Number of high PPi consumers": 1,
+        "Number of PPi bidirectional": 1,
         "PPi reactions": {
-            "Number of PPi reactions": 65,
-            "Number of PPi producers": 40,
-            "Number of PPi consumers": 3,
-            "Number of PPi bidirectional": 23,
             "NA_biomass": {
                 "Max flux": 0.21442400000000006,
                 "Max production": 0.10764084800000003,
@@ -2971,7 +3007,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "FMNAT": {
                 "Max flux": 4.090500610957615,
@@ -2979,7 +3015,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ADPT": {
                 "Max flux": 0.22123107015310584,
@@ -3011,7 +3047,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "UAGP2UAG": {
                 "Max flux": 0.07064074934698063,
@@ -3027,7 +3063,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP2": {
                 "Max flux": 4.0905006109576,
@@ -3035,7 +3071,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP3": {
                 "Max flux": 4.09050061095761,
@@ -3043,7 +3079,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP4": {
                 "Max flux": 4.090500610957598,
@@ -3051,7 +3087,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ASNS2": {
                 "Max flux": 0.8939498684071855,
@@ -3059,7 +3095,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "SADT": {
                 "Max flux": 2.204643572074273,
@@ -3075,7 +3111,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "UPPRT": {
                 "Max flux": 0.3621086679617375,
@@ -3083,7 +3119,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ATPPRT": {
                 "Max flux": 0.20269195726275036,
@@ -3115,7 +3151,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GMPS": {
                 "Max flux": 0.39847559253076753,
@@ -3123,7 +3159,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GMPS2": {
                 "Max flux": 0.3719105530287556,
@@ -3131,7 +3167,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP1": {
                 "Max flux": 4.0905006109576085,
@@ -3139,7 +3175,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP5": {
                 "Max flux": 4.090500610957661,
@@ -3147,7 +3183,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP6": {
                 "Max flux": 4.090500610957606,
@@ -3155,7 +3191,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP7": {
                 "Max flux": 4.090500610957622,
@@ -3163,7 +3199,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP8": {
                 "Max flux": 4.09050061095761,
@@ -3171,7 +3207,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ARGSS": {
                 "Max flux": 0.6326491810045358,
@@ -3195,7 +3231,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "PANTS": {
                 "Max flux": 0.6531788754005777,
@@ -3227,7 +3263,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ALATRS": {
                 "Max flux": 0.10030384067495465,
@@ -3451,7 +3487,7 @@
                 "Min flux": 0.0,
                 "Min production": -0.1258731626233188,
                 "Stoichiometry": -1.0,
-                "Type": "Bidirectional"
+                "Type": "Consumer"
             },
             "HXPRT": {
                 "Max flux": -0.029480364474600698,
@@ -3467,16 +3503,22 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             }
         }
     },
     "AVM059": {
+        "Number of PPi reactions": 76,
+        "Number of PPi producers": 64,
+        "Number of low PPi producers": 32,
+        "Number of medium PPi producers": 18,
+        "Number of high PPi producers": 17,
+        "Number of PPi consumers": 9,
+        "Number of low PPi consumers": 9,
+        "Number of medium PPi consumers": 1,
+        "Number of high PPi consumers": 2,
+        "Number of PPi bidirectional": 3,
         "PPi reactions": {
-            "Number of PPi reactions": 75,
-            "Number of PPi producers": 42,
-            "Number of PPi consumers": 7,
-            "Number of PPi bidirectional": 27,
             "NA_biomass": {
                 "Max flux": 0.2706427999999999,
                 "Max production": 0.13586268559999995,
@@ -3499,7 +3541,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ADK2": {
                 "Max flux": 0.5659395004490474,
@@ -3515,7 +3557,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "FMNAT": {
                 "Max flux": 7.7385472864557645,
@@ -3523,7 +3565,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "METAT": {
                 "Max flux": 4.6007026615983945e-18,
@@ -3571,7 +3613,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "UAGP2UAG": {
                 "Max flux": 0.08916170856510931,
@@ -3595,7 +3637,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP3": {
                 "Max flux": 7.738547286455197,
@@ -3603,7 +3645,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP4": {
                 "Max flux": 7.738547286455487,
@@ -3611,7 +3653,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ASNS2": {
                 "Max flux": 1.382331281113568,
@@ -3619,7 +3661,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "SADT": {
                 "Max flux": 2.718173812386433,
@@ -3635,7 +3677,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GLGC": {
                 "Max flux": 13.535821892276594,
@@ -3643,7 +3685,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "UPPRT": {
                 "Max flux": 0.5740243504554426,
@@ -3651,7 +3693,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ATPPRT": {
                 "Max flux": 0.33062632601889996,
@@ -3683,7 +3725,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GMPS": {
                 "Max flux": 0.5416385295427362,
@@ -3691,7 +3733,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GMPS2": {
                 "Max flux": 0.5145566030656105,
@@ -3699,7 +3741,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "DMATT": {
                 "Max flux": -3.282115794879795e-18,
@@ -3715,7 +3757,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP5": {
                 "Max flux": 7.738547286455472,
@@ -3723,7 +3765,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP6": {
                 "Max flux": 7.738547286455429,
@@ -3731,7 +3773,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP7": {
                 "Max flux": 7.738547286455614,
@@ -3739,7 +3781,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP8": {
                 "Max flux": 7.738547286455351,
@@ -3747,7 +3789,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ARGSS": {
                 "Max flux": 1.0280755713765921,
@@ -3771,7 +3813,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "PANTS": {
                 "Max flux": 1.0585425381956577,
@@ -3803,7 +3845,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ALATRS": {
                 "Max flux": 0.12660202351893265,
@@ -3963,7 +4005,7 @@
                 "Min flux": 0.0,
                 "Min production": -1.4103897330304902e-16,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Consumer"
             },
             "ASPTRS": {
                 "Max flux": 0.07078382368775571,
@@ -4051,7 +4093,7 @@
                 "Min flux": 0.0,
                 "Min production": -0.23031390733498683,
                 "Stoichiometry": -1.0,
-                "Type": "Bidirectional"
+                "Type": "Consumer"
             },
             "GRTT": {
                 "Max flux": -6.564231589759591e-18,
@@ -4083,16 +4125,22 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             }
         }
     },
     "AVM060": {
+        "Number of PPi reactions": 71,
+        "Number of PPi producers": 63,
+        "Number of low PPi producers": 31,
+        "Number of medium PPi producers": 16,
+        "Number of high PPi producers": 18,
+        "Number of PPi consumers": 6,
+        "Number of low PPi consumers": 4,
+        "Number of medium PPi consumers": 2,
+        "Number of high PPi consumers": 2,
+        "Number of PPi bidirectional": 2,
         "PPi reactions": {
-            "Number of PPi reactions": 70,
-            "Number of PPi producers": 40,
-            "Number of PPi consumers": 3,
-            "Number of PPi bidirectional": 28,
             "NA_biomass": {
                 "Max flux": 0.22720320000000005,
                 "Max production": 0.11405600640000002,
@@ -4115,7 +4163,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ADK2": {
                 "Max flux": 0.776597250949594,
@@ -4131,7 +4179,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "FMNAT": {
                 "Max flux": 10.822603459312244,
@@ -4139,7 +4187,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ADPT": {
                 "Max flux": 0.46854844018535236,
@@ -4179,7 +4227,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "UAGP2UAG": {
                 "Max flux": 0.07485078303749537,
@@ -4195,7 +4243,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP2": {
                 "Max flux": 10.822603459312893,
@@ -4203,7 +4251,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP3": {
                 "Max flux": 10.822603459312788,
@@ -4211,7 +4259,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP4": {
                 "Max flux": 10.822603459312555,
@@ -4219,7 +4267,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ASNS2": {
                 "Max flux": 1.8990897947521892,
@@ -4227,7 +4275,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "SADT": {
                 "Max flux": 3.703022250355886,
@@ -4243,7 +4291,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "UPPRT": {
                 "Max flux": 0.7876914973917296,
@@ -4251,7 +4299,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ATPPRT": {
                 "Max flux": 0.4528274177167209,
@@ -4283,7 +4331,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GMPS": {
                 "Max flux": 0.7344109569749193,
@@ -4291,7 +4339,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GMPS2": {
                 "Max flux": 0.6976904091261785,
@@ -4299,7 +4347,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP1": {
                 "Max flux": 10.822603459313024,
@@ -4307,7 +4355,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP5": {
                 "Max flux": 10.822603459312965,
@@ -4315,7 +4363,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP6": {
                 "Max flux": 10.822603459312436,
@@ -4323,7 +4371,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP7": {
                 "Max flux": 10.82260345931268,
@@ -4331,7 +4379,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP8": {
                 "Max flux": 10.822603459312434,
@@ -4339,7 +4387,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ARGSS": {
                 "Max flux": 1.4122733045337097,
@@ -4363,7 +4411,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "PANTS": {
                 "Max flux": 1.4713238977581886,
@@ -4395,7 +4443,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ALATRS": {
                 "Max flux": 0.10628172953419326,
@@ -4555,7 +4603,7 @@
                 "Min flux": 0.0,
                 "Min production": -1.3244816898298255e-16,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Consumer"
             },
             "PPNCL2": {
                 "Max flux": -8.278897025952448e-17,
@@ -4563,7 +4611,7 @@
                 "Min flux": 0.0,
                 "Min production": -8.278897025952448e-17,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Consumer"
             },
             "ASPTRS": {
                 "Max flux": 0.059422645827245,
@@ -4635,7 +4683,7 @@
                 "Min flux": 0.0,
                 "Min production": -0.32210129343192,
                 "Stoichiometry": -1.0,
-                "Type": "Bidirectional"
+                "Type": "Consumer"
             },
             "HXPRT": {
                 "Max flux": -0.0249991180823941,
@@ -4651,7 +4699,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "PPAna": {
                 "Max flux": 0.0007683142760058717,
@@ -4659,16 +4707,22 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             }
         }
     },
     "AVM061": {
+        "Number of PPi reactions": 67,
+        "Number of PPi producers": 62,
+        "Number of low PPi producers": 31,
+        "Number of medium PPi producers": 17,
+        "Number of high PPi producers": 15,
+        "Number of PPi consumers": 4,
+        "Number of low PPi consumers": 3,
+        "Number of medium PPi consumers": 1,
+        "Number of high PPi consumers": 1,
+        "Number of PPi bidirectional": 1,
         "PPi reactions": {
-            "Number of PPi reactions": 66,
-            "Number of PPi producers": 40,
-            "Number of PPi consumers": 3,
-            "Number of PPi bidirectional": 24,
             "NA_biomass": {
                 "Max flux": 0.18403160000000005,
                 "Max production": 0.09238386320000003,
@@ -4699,7 +4753,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "FMNAT": {
                 "Max flux": 4.36728382303894,
@@ -4707,7 +4761,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ADPT": {
                 "Max flux": 0.3312342802167941,
@@ -4739,7 +4793,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "UAGP2UAG": {
                 "Max flux": 0.06062814856323825,
@@ -4755,7 +4809,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP2": {
                 "Max flux": 4.367283823038945,
@@ -4763,7 +4817,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP3": {
                 "Max flux": 4.36728382303896,
@@ -4771,7 +4825,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP4": {
                 "Max flux": 4.367283823038932,
@@ -4779,7 +4833,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ASNS2": {
                 "Max flux": 1.3989706684386192,
@@ -4787,7 +4841,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "SADT": {
                 "Max flux": 3.4073487695733036,
@@ -4803,7 +4857,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "UPPRT": {
                 "Max flux": 0.5634016928994383,
@@ -4811,7 +4865,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ATPPRT": {
                 "Max flux": 0.31562335330153,
@@ -4843,7 +4897,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GMPS": {
                 "Max flux": 0.6124879345652099,
@@ -4851,7 +4905,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GMPS2": {
                 "Max flux": 0.571655405594185,
@@ -4859,7 +4913,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP1": {
                 "Max flux": 4.367283823038958,
@@ -4867,7 +4921,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP5": {
                 "Max flux": 4.367283823038947,
@@ -4875,7 +4929,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP6": {
                 "Max flux": 4.367283823038952,
@@ -4883,7 +4937,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP7": {
                 "Max flux": 4.367283823038952,
@@ -4891,7 +4945,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP8": {
                 "Max flux": 4.367283823038942,
@@ -4899,7 +4953,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ARGSS": {
                 "Max flux": 0.9888776711411892,
@@ -4923,7 +4977,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "PANTS": {
                 "Max flux": 1.0346743459661978,
@@ -4955,7 +5009,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ALATRS": {
                 "Max flux": 0.08608680131681615,
@@ -5115,7 +5169,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ASPTRS": {
                 "Max flux": 0.048131560593430114,
@@ -5187,7 +5241,7 @@
                 "Min flux": 0.0,
                 "Min production": -0.2011404596462577,
                 "Stoichiometry": -1.0,
-                "Type": "Bidirectional"
+                "Type": "Consumer"
             },
             "HXPRT": {
                 "Max flux": -0.024824047297729572,
@@ -5203,16 +5257,22 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             }
         }
     },
     "LL1004": {
+        "Number of PPi reactions": 71,
+        "Number of PPi producers": 63,
+        "Number of low PPi producers": 32,
+        "Number of medium PPi producers": 18,
+        "Number of high PPi producers": 17,
+        "Number of PPi consumers": 4,
+        "Number of low PPi consumers": 5,
+        "Number of medium PPi consumers": 1,
+        "Number of high PPi consumers": 2,
+        "Number of PPi bidirectional": 4,
         "PPi reactions": {
-            "Number of PPi reactions": 70,
-            "Number of PPi producers": 39,
-            "Number of PPi consumers": 3,
-            "Number of PPi bidirectional": 29,
             "NA_biomass": {
                 "Max flux": 0.3094395999999987,
                 "Max production": 0.15533867919999936,
@@ -5235,7 +5295,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ADK2": {
                 "Max flux": 0.524424270542881,
@@ -5251,7 +5311,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "FMNAT": {
                 "Max flux": 7.139238356093462,
@@ -5259,7 +5319,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ADPT": {
                 "Max flux": 0.33008675958286615,
@@ -5299,7 +5359,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "UAGP2UAG": {
                 "Max flux": 0.10194309042658445,
@@ -5323,7 +5383,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP3": {
                 "Max flux": 7.139238356093651,
@@ -5331,7 +5391,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP4": {
                 "Max flux": 7.139238356094066,
@@ -5339,7 +5399,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ASNS2": {
                 "Max flux": 1.2805838456660878,
@@ -5347,7 +5407,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "SADT": {
                 "Max flux": 2.522963809706806,
@@ -5363,7 +5423,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GLGC": {
                 "Max flux": 13.404521032627148,
@@ -5371,7 +5431,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "UPPRT": {
                 "Max flux": 0.5319160458363644,
@@ -5379,7 +5439,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ATPPRT": {
                 "Max flux": 0.3065075233973622,
@@ -5411,7 +5471,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GMPS": {
                 "Max flux": 0.503279817945924,
@@ -5419,7 +5479,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "GMPS2": {
                 "Max flux": 0.47811582704862804,
@@ -5427,7 +5487,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP1": {
                 "Max flux": 7.139238356093926,
@@ -5435,7 +5495,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP5": {
                 "Max flux": 7.139238356094072,
@@ -5443,7 +5503,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP6": {
                 "Max flux": 7.139238356093956,
@@ -5451,7 +5511,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP7": {
                 "Max flux": 7.13923835609393,
@@ -5459,7 +5519,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "NTPP8": {
                 "Max flux": 7.139238356093948,
@@ -5467,7 +5527,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ARGSS": {
                 "Max flux": 0.9524234110022314,
@@ -5491,7 +5551,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "PANTS": {
                 "Max flux": 0.9779755276599257,
@@ -5523,7 +5583,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ALATRS": {
                 "Max flux": 0.14475049591893493,
@@ -5683,7 +5743,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "ASPTRS": {
                 "Max flux": 0.08093072525265649,
@@ -5755,7 +5815,7 @@
                 "Min flux": 0.0,
                 "Min production": -0.21247733202661087,
                 "Stoichiometry": -1.0,
-                "Type": "Bidirectional"
+                "Type": "Consumer"
             },
             "HXPRT": {
                 "Max flux": -0.03749502367737319,
@@ -5771,7 +5831,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             },
             "PPAna": {
                 "Max flux": 0.001046406310481307,
@@ -5779,7 +5839,7 @@
                 "Min flux": 0.0,
                 "Min production": 0.0,
                 "Stoichiometry": 1.0,
-                "Type": "Bidirectional"
+                "Type": "Producer"
             }
         }
     }

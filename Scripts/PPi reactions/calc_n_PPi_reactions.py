@@ -72,25 +72,53 @@ def update_model(model: cobra.Model, knockouts: dict) -> cobra.Model:
 
     return model
 
-def find_ppi_reactions(strain_model: cobra.Model) -> dict:
+def find_ppi_reactions(strain_model: cobra.Model, strain_miniumum_ppi_need) -> dict:
     """
     Find the PPi reactions in the model and calculate the min and max flux/turnover and stoichiometric coefficient.
 
     Parameters
     strain_model: cobra.Model
         The model to check the reaction in.
+    strain_miniumum_ppi_need: float
+        The minimum amount of PPi needed in the model.
 
     Returns
     -------
     dict
         The dictionary containing the reaction ID, max and min flux, max and min production, and stoichiometric coefficient.
+    n_ppi_reactions: int
+        The number of PPi reactions found in the model.
+    n_ppi_producers: int
+        The number of PPi producers found in the model.
+    n_ppi_low_producers: int
+        The number of low PPi producers found in the model.
+    n_ppi_medium_producers: int
+        The number of medium PPi producers found in the model.
+    n_ppi_high_producers: int
+        The number of high PPi producers found in the model.
+    n_ppi_consumers: int
+        The number of PPi consumers found in the model.
+    n_ppi_low_consumers: int
+        The number of low PPi consumers found in the model.
+    n_ppi_medium_consumers: int
+        The number of medium PPi consumers found in the model.
+    n_ppi_high_consumers: int
+        The number of high PPi consumers found in the model.
+    n_ppi_bidirectionals: int
+        The number of PPi bidirectional found in the model.
     """
     ppi_reactions: dict = {} 
     
     n_ppi_reactions = 0
     n_ppi_producers = 0
+    n_ppi_low_producers = 0
+    n_ppi_medium_producers = 0
+    n_ppi_high_producers = 0
     n_ppi_consumers = 0
-    n_ppi_bidirectional = 0
+    n_ppi_low_consumers = 0
+    n_ppi_medium_consumers = 0
+    n_ppi_high_consumers = 0
+    n_ppi_bidirectionals = 0
     for reaction in strain_model.reactions:
         reaction_metabolites: list = reaction.reactants + reaction.products # Get the metabolites in the reaction
         for metabolite in reaction_metabolites:
@@ -112,29 +140,57 @@ def find_ppi_reactions(strain_model: cobra.Model) -> dict:
                     ppi_max_turnover: float = ppi_min_flux*ppi_stoichiometry
 
                 # Check the type of reaction (Producer, Consumer, or Bidirectional)
-                if ppi_min_turnover > 0:
+                if ppi_min_turnover >= 0:
                     type: str = "Producer"
                     n_ppi_producers += 1
-                elif ppi_max_turnover < 0:
+                    n_ppi_reactions += 1
+
+                    if ppi_max_turnover/strain_miniumum_ppi_need <= 0.05:
+                        n_ppi_low_producers += 1
+                    elif ppi_max_turnover/strain_miniumum_ppi_need <= 0.7:
+                        n_ppi_medium_producers += 1
+                    else:
+                        n_ppi_high_producers += 1
+
+                elif ppi_max_turnover <= 0:
                     type: str = "Consumer"
                     n_ppi_consumers += 1
+                    n_ppi_reactions += 1
+
+                    if ppi_min_turnover/strain_miniumum_ppi_need >= -0.05:
+                        n_ppi_low_consumers += 1
+                    elif ppi_min_turnover/strain_miniumum_ppi_need >= -0.7:
+                        n_ppi_medium_consumers += 1
+                    else:
+                        n_ppi_high_consumers += 1
                 else:
                     type: str = "Bidirectional"
-                    n_ppi_bidirectional += 1
+                    n_ppi_bidirectionals += 1
+                    n_ppi_producers
+                    n_ppi_consumers
+                    n_ppi_reactions += 1
+
+                    if ppi_max_turnover/strain_miniumum_ppi_need <= 0.05:
+                        n_ppi_low_producers += 1
+                    elif ppi_max_turnover/strain_miniumum_ppi_need <= 0.7:
+                        n_ppi_medium_producers += 1
+                    else:
+                        n_ppi_high_producers += 1
+                    if ppi_min_turnover/strain_miniumum_ppi_need >= -0.05:
+                        n_ppi_low_consumers += 1
+                    elif ppi_min_turnover/strain_miniumum_ppi_need >= -0.7:
+                        n_ppi_medium_consumers += 1
+                    else:
+                        n_ppi_high_consumers += 1
                 
-                ppi_reactions["Number of PPi reactions"] = n_ppi_reactions
-                ppi_reactions["Number of PPi producers"] = n_ppi_producers
-                ppi_reactions["Number of PPi consumers"] = n_ppi_consumers
-                ppi_reactions["Number of PPi bidirectional"] = n_ppi_bidirectional
                 ppi_reactions[reaction.id] = {"Max flux": ppi_max_flux, "Max production": ppi_max_turnover, 
                                                         "Min flux": ppi_min_flux, "Min production": ppi_min_turnover,
                                                         "Stoichiometry": ppi_stoichiometry, "Type": type}
                 
-                n_ppi_reactions += 1
                 break # Break the loop since the PPi metabolite was found
 
-    print(f" - {n_ppi_reactions} PPi reactions found in the model ({n_ppi_producers} producers, {n_ppi_consumers} consumers and {n_ppi_bidirectional} bidirectionnals).")
-    return ppi_reactions
+    print(f" - {n_ppi_reactions} PPi reactions found in the model ({n_ppi_producers} producers, {n_ppi_consumers} consumers and {n_ppi_bidirectionals} bidirectionnals).")
+    return ppi_reactions, n_ppi_reactions, n_ppi_producers, n_ppi_low_producers, n_ppi_medium_producers, n_ppi_high_producers, n_ppi_consumers, n_ppi_low_consumers, n_ppi_medium_consumers, n_ppi_high_consumers, n_ppi_bidirectionals
 
 strains: dict = load_strains()
 results: dict = {}
@@ -150,7 +206,17 @@ for strain, keys in strains.items():
 
     # --- Find the PPi reactions and calculate the min and max flux/turnover and stoichiometric coefficient ---
     strain_results: dict = {}
-    ppi_reactions: dict = find_ppi_reactions(strain_model)
+    ppi_reactions, n_ppi_reactions, n_ppi_producers, n_ppi_low_producers, n_ppi_medium_producers, n_ppi_high_producers, n_ppi_consumers, n_ppi_low_consumers, n_ppi_medium_consumers, n_ppi_high_consumers, n_ppi_bidirectionals = find_ppi_reactions(strain_model, keys["Minimum PPi need"])
+    strain_results["Number of PPi reactions"] = n_ppi_reactions
+    strain_results["Number of PPi producers"] = n_ppi_producers
+    strain_results["Number of low PPi producers"] = n_ppi_low_producers
+    strain_results["Number of medium PPi producers"] = n_ppi_medium_producers
+    strain_results["Number of high PPi producers"] = n_ppi_high_producers
+    strain_results["Number of PPi consumers"] = n_ppi_consumers
+    strain_results["Number of low PPi consumers"] = n_ppi_low_consumers
+    strain_results["Number of medium PPi consumers"] = n_ppi_medium_consumers
+    strain_results["Number of high PPi consumers"] = n_ppi_high_consumers
+    strain_results["Number of PPi bidirectional"] = n_ppi_bidirectionals
     strain_results["PPi reactions"] = ppi_reactions
     results[strain] = strain_results
     print("PPi reactions successfully calculated for " + strain + ".\n")

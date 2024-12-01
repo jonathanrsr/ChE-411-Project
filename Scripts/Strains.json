@@ -6,7 +6,8 @@
       },
       "glgC model": true,
       "In vivo yield": 0.22438,
-      "In vivo yield error": 0.00567
+      "In vivo yield error": 0.00567,
+      "Minimum PPi need": 4.092
     },
     "AVM008": {
       "Knockouts": {
@@ -16,7 +17,8 @@
       },
       "glgC model": true,
       "In vivo yield": 0.25839,
-      "In vivo yield error": 0.01256
+      "In vivo yield error": 0.01256,
+      "Minimum PPi need": 5.615
     },
     "AVM051": {
       "Knockouts": {
@@ -25,7 +27,8 @@
       },
       "glgC model": false,
       "In vivo yield": 0.21434,
-      "In vivo yield error": 0.0061
+      "In vivo yield error": 0.0061,
+      "Minimum PPi need": 5.294
     },
     "AVM052": {
       "Knockouts": {
@@ -35,7 +38,8 @@
       },
       "glgC model": false,
       "In vivo yield": 0.19025,
-      "In vivo yield error": 0.00774
+      "In vivo yield error": 0.00774,
+      "Minimum PPi need": 5.288
     },
     "AVM053": {
       "Knockouts": {
@@ -46,7 +50,8 @@
       },
       "glgC model": false,
       "In vivo yield": 0.20716,
-      "In vivo yield error": 0.00548
+      "In vivo yield error": 0.00548,
+      "Minimum PPi need": 5.292
     },
     "AVM056": {
       "Knockouts": {
@@ -58,7 +63,8 @@
       },
       "glgC model": false,
       "In vivo yield": 0.20727,
-      "In vivo yield error": 0.00365
+      "In vivo yield error": 0.00365,
+      "Minimum PPi need": 5.430
     },
     "AVM059": {
       "Knockouts": {
@@ -71,7 +77,8 @@
       },
       "glgC model": true,
       "In vivo yield": 0.25853,
-      "In vivo yield error": 0.00618
+      "In vivo yield error": 0.00618,
+      "Minimum PPi need": 5.616
     },
     "AVM060": {
       "Knockouts": {
@@ -85,7 +92,8 @@
       },
       "glgC model": false,
       "In vivo yield": 0.19845,
-      "In vivo yield error": 0.01467
+      "In vivo yield error": 0.01467,
+      "Minimum PPi need": 5.214
     },
     "AVM061": {
       "Knockouts": {
@@ -102,7 +110,8 @@
       },
       "glgC model": false,
       "In vivo yield": 0.17627,
-      "In vivo yield error": 0.00396
+      "In vivo yield error": 0.00396,
+      "Minimum PPi need": 5.379
     },
     "LL1004": {
       "Knockouts": {
@@ -110,7 +119,8 @@
       },
       "glgC model": true,
       "In vivo yield": 0.28198,
-      "In vivo yield error": 0.01401
+      "In vivo yield error": 0.01401,
+      "Minimum PPi need": 5.609
     }
   }
   
