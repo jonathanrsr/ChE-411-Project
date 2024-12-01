@@ -122,6 +122,10 @@
 <h3>Scripts</h3>
 <p>Contains all the scripts used in this project:</p>
 
-<p><a href="Scripts\MEMOTE reports"><b>generate_memote_reports.py:</b></a> python script to generate the MEMOTE reports of the models contained in the <i>Models</i> folder. For this script to work, the python package <i>memote</i> must be installed via <i>pip install memote</i>.</p>
-
 <p><a href="Scripts\Biomass yields"><b>biomass_yield_<<i>strain></i>.py</b></a> python scripts to calculate the maximum biomass flux and yield for each strain. For this script to work, the python package <i>cobra</i> must by installed via <ip>pip install cobra</ip> and be sure to have the models <i>iCTH669</i> with and without GlgC.</p>
+
+<p><a href="Scripts\PPi reactions"><b>calc_n_ppi_reactions.py</b></a> python scripts to report the numbers of producing or consuming PP<sub>i</sub> reactions for each strain, and to calculate their maximum and minimum PP<sub>i</sub> flux and production with FBA.</p>
+
+<p><a href="Scripts\PPi reactions"><b>plot_ppi_producers.py</b></a> python scripts to plot the number of low, medium and high PP<sub>i</sub> producing reactions found with <a href="Scripts\PPi reactions"><b>calc_n_ppi_reactions.py</b></a>.</p>
+
+<p><a href="Scripts\MEMOTE reports"><b>generate_memote_reports.py:</b></a> python script to generate the MEMOTE reports of the models contained in the <i>Models</i> folder. For this script to work, the python package <i>memote</i> must be installed via <i>pip install memote</i>.</p>
