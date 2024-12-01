@@ -1,5 +1,4 @@
 import cobra
-import os
 import json
 
 def load_model(GLGC: bool) -> cobra.Model:
