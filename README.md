@@ -84,7 +84,7 @@
   <tr>
     <td>Reproduce plot for <b>Figure 3</b></td>
     <td align="center">Jonathan</td>
-    <td align="center">[ ]</td>
+    <td align="center">[x]</td>
   </tr>
   <tr>
     <td>Understand <b>Table 4</b></td>
