@@ -92,9 +92,10 @@ if __name__ == '__main__':
         fva_results = flux_variability_analysis(strain_model, reaction_list=reactions, fraction_of_optimum=1.0)
         print("FVA successfully completed for " + strain + ".")
 
+        # Divide results by the cellobiose uptake rate to get the yields in mmol/mmol
         results[strain] = {
-            reaction: {"min": fva_results.loc[reaction, "minimum"]/2.92144383597262, "max": fva_results.loc[reaction, "maximum"]/2.92144383597262} for reaction in reactions
+            reaction: {"min": fva_results.loc[reaction, "minimum"], "max": fva_results.loc[reaction, "maximum"]} for reaction in reactions
         }
 
-    with open(r"Results\Yields\Metabolites\metabolite_yields.json", "w") as file:
+    with open(r"Results\Metabolite yields at fixed biomass\metabolite_yields.json", "w") as file:
         json.dump(results, file, indent=4)

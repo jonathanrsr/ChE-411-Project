@@ -15,8 +15,8 @@ width = 0.25  # Bar width
 
 # Create the plot
 plt.figure(figsize=(12, 5.5))
-plt.bar(x - width/2, values, color="#277da1", width=width, label="FBA results")
-plt.bar(x + width/2, in_vivo_values, color="#90be6d", width=width, label="In vivo values")
+plt.bar(x - width/2, values, color="#277da1", edgecolor="black", width=width, label="FBA results")
+plt.bar(x + width/2, in_vivo_values, color="#90be6d", edgecolor="black", width=width, label="In vivo values")
 
 ax = plt.gca()
 ax.spines['top'].set_visible(False)   # Remove top border
