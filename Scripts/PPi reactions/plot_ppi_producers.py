@@ -9,7 +9,7 @@ def load_ppi_reactions_data():
     -------
     ppi_reactions (dict): A dictionary containing the PPI reactions data.
     """
-    with open(r"Results\PPi production\PPi_reactions.json") as f:
+    with open(r"Results\PPi reactions\PPi_reactions.json") as f:
         return json.load(f)
     
 ppi_reactions = load_ppi_reactions_data()
@@ -25,22 +25,29 @@ colors = {
     "High": "#f94144"
 }
 
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(12, 5.5))
 
-low_bars = plt.bar(strains, low_producers, label=r"Low $\mathrm{PP}_\mathrm{i}$ producers", color=colors["Low"])
+low_bars = plt.bar(strains,
+                   low_producers,
+                   label=r"Low $\mathrm{PP}_\mathrm{i}$ producers (<= 5% min. need)",
+                   color=colors["Low"],
+                   width=0.5
+)
 medium_bars = plt.bar(
     strains,
     medium_producers,
     bottom=low_producers,
-    label=r"Medium $\mathrm{PP}_\mathrm{i}$ producers",
-    color=colors["Medium"]
+    label=r"Medium $\mathrm{PP}_\mathrm{i}$ producers (<= 70% min. need)",
+    color=colors["Medium"],
+    width=0.5
 )
 high_bars = plt.bar(
     strains,
     high_producers,
     bottom=[low + medium for low, medium in zip(low_producers, medium_producers)],
-    label=r"High $\mathrm{PP}_\mathrm{i}$ producers",
-    color=colors["High"]
+    label=r"High $\mathrm{PP}_\mathrm{i}$ producers (> 70% min. need)",
+    color=colors["High"],
+    width=0.5
 )
 
 for i, strain in enumerate(strains):
@@ -56,14 +63,18 @@ for i, strain in enumerate(strains):
         fontsize=9
     )
 
-plt.xlabel("Strain")
-plt.ylabel("Number of reactions (counts)")
-plt.ylim(0, 70)
-plt.title(r"Number of low, medium, and high $\mathrm{PP}_\mathrm{i}$ producers for each strain")
+ax = plt.gca()
+ax.spines['top'].set_visible(False)   # Remove top border
+ax.spines['right'].set_visible(False)  # Remove left border
 
-plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.15), ncol=3, frameon=False)
+plt.xlabel("Strain", fontsize=12)
+plt.ylabel("Number of reactions (counts)", fontsize=12)
+plt.ylim(0, 70)
+#plt.title(r"Number of low, medium, and high $\mathrm{PP}_\mathrm{i}$ producers for each strain")
+
+plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.25), ncol=3, frameon=False)
 plt.xticks(rotation=45)
 plt.tight_layout()
 
-output_path = r"Results\PPi production\Figure 3.svg"
-plt.savefig(output_path, format="svg", bbox_inches="tight")
+output_path = r"Results\PPi reactions\Figure 3.png"
+plt.savefig(output_path, format="png", bbox_inches="tight")

@@ -4,7 +4,7 @@ from cobra.flux_analysis import parsimonious
 from cobra.flux_analysis import flux_variability_analysis
 
 # Load the model
-model_path = r"C:\Users\djuki\systems\ChE-411-Project\.Archives\Models\Old\iCTH669_w_GLGC.sbml"  
+model_path = r"Models\iCTH669_w_GLGC.sbml"  
 model = cobra.io.read_sbml_model(model_path)
 
 # Find max etoh yield
