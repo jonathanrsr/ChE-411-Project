@@ -1,6 +1,6 @@
 {
     "AVM003": {
-        "Max biomass yield": {
+        "Maximum biomass yield": {
             "EXCH_etoh_e": 2.8390423355419556,
             "EXCH_ac_e": 0.0,
             "EXCH_for_e": 0.21462267426794632,
@@ -26,7 +26,7 @@
         }
     },
     "AVM008": {
-        "Max biomass yield": {
+        "Maximum biomass yield": {
             "EXCH_etoh_e": 2.1526164149113463,
             "EXCH_ac_e": 0.4141268132832181,
             "EXCH_for_e": 0.0,
@@ -52,7 +52,7 @@
         }
     },
     "AVM051": {
-        "Max biomass yield": {
+        "Maximum biomass yield": {
             "EXCH_etoh_e": 2.538734409467899,
             "EXCH_ac_e": 0.3152176595490398,
             "EXCH_for_e": 0.0,
@@ -78,7 +78,7 @@
         }
     },
     "AVM052": {
-        "Max biomass yield": {
+        "Maximum biomass yield": {
             "EXCH_etoh_e": 2.961356946594923,
             "EXCH_ac_e": 0.0,
             "EXCH_for_e": -1.5888998700547437e-12,
@@ -104,7 +104,7 @@
         }
     },
     "AVM053": {
-        "Max biomass yield": {
+        "Maximum biomass yield": {
             "EXCH_etoh_e": 2.84858454421879,
             "EXCH_ac_e": 0.04788397047193171,
             "EXCH_for_e": 8.176724333647603e-14,
@@ -130,7 +130,7 @@
         }
     },
     "AVM056": {
-        "Max biomass yield": {
+        "Maximum biomass yield": {
             "EXCH_etoh_e": 1.2805003425912713,
             "EXCH_ac_e": 1.6335759930350262,
             "EXCH_for_e": 0.0,
@@ -156,7 +156,7 @@
         }
     },
     "AVM059": {
-        "Max biomass yield": {
+        "Maximum biomass yield": {
             "EXCH_etoh_e": 2.5444751938059427,
             "EXCH_ac_e": 0.08488802527234288,
             "EXCH_for_e": 0.0,
@@ -182,7 +182,7 @@
         }
     },
     "AVM060": {
-        "Max biomass yield": {
+        "Maximum biomass yield": {
             "EXCH_etoh_e": 2.50520376428269,
             "EXCH_ac_e": 0.34415390322918216,
             "EXCH_for_e": 0.0,
@@ -208,7 +208,7 @@
         }
     },
     "AVM061": {
-        "Max biomass yield": {
+        "Maximum biomass yield": {
             "EXCH_etoh_e": 2.2900085807748276,
             "EXCH_ac_e": 0.7779862825214741,
             "EXCH_for_e": 0.0,
@@ -234,7 +234,7 @@
         }
     },
     "LL1004": {
-        "Max biomass yield": {
+        "Maximum biomass yield": {
             "EXCH_etoh_e": 1.3167460405383613,
             "EXCH_ac_e": 1.1161356129410667,
             "EXCH_for_e": 0.0,

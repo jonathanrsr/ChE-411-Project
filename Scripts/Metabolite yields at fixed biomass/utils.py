@@ -1,6 +1,25 @@
 import cobra
 import json
 
+def load_json(path: str) -> dict:
+    """
+    Load a JSON file.
+
+    Parameters
+    ----------
+    path: str
+        The path to the JSON file.
+
+    Returns
+    -------
+    dict
+        The loaded JSON file.
+    """
+    with open(path, "r") as file:
+        data = json.load(file)
+
+    return data
+
 def load_strains() -> dict:
     """
     Load the strains from the Strains.json file.

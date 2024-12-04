@@ -26,7 +26,7 @@ def calc_pFBA(model: cobra.Model, strain_data: dict) -> dict:
     in_vivo_biomass_yield: float = strain_data["In vivo yield"]
     in_vivo_biomass_yield_error: float = strain_data["In vivo yield error"]
     yield_bounds: dict = {
-        "Max biomass yield": in_vivo_biomass_yield + 1.96*in_vivo_biomass_yield_error,
+        "Maximum biomass yield": in_vivo_biomass_yield + 1.96*in_vivo_biomass_yield_error,
         "Average biomass yield": in_vivo_biomass_yield,
         "Minimum biomass yield": in_vivo_biomass_yield - 1.96*in_vivo_biomass_yield_error
     }
