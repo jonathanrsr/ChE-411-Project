@@ -224,8 +224,3 @@ print(f"Min pyruvate yield: {min_pyr_yield}")
 print(f"Max pyruvate yield: {max_pyr_yield}")
 print(f"Min malate yield: {min_mal_yield}")
 print(f"Max malate yield: {max_mal_yield}")
-
-
-
-
-

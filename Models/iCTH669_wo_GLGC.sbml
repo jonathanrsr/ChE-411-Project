@@ -28846,7 +28846,7 @@
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/URIK1" />
                   <rdf:li rdf:resource="http://identifiers.org/biopath/RXN00986" />
-                  <rdf:li rdf:resource="httpz://identifiers.org/brenda/BR47782" />
+                  <rdf:li rdf:resource="http://identifiers.org/brenda/BR47782" />
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.48" />
                   <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00964" />
                   <rdf:li rdf:resource="http://identifiers.org/metacyc/URIDINEKIN-RXN" />

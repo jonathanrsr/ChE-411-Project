@@ -72,8 +72,55 @@ def update_model(model: cobra.Model, knockouts: dict) -> cobra.Model:
 
     return model
 
-if __name__ == '__main__':
+def save_json(data: dict, path: str):
+    """
+    Save a dictionary to a JSON file.
 
+    Parameters
+    ----------
+    data: dict
+        The dictionary to save.
+    path: str
+        The path to save the JSON file to.
+    """
+    with open(path, "w") as file:
+        json.dump(data, file, indent=4)
+
+def calc_pFBA(model: cobra.Model, objective) -> dict:
+    """
+    Calculate the pFBA solution for the model.
+
+    Parameters
+    ----------
+    model: cobra.Model
+        The model to calculate the pFBA solution for.
+
+    Returns
+    -------
+    dict
+        The pFBA solution.
+    """
+    model.objective = objective
+
+    metabolites = ["EXCH_etoh_e", "EXCH_ac_e", "EXCH_for_e", "EXCH_pyr_e", "EXCH_mal__L_e", "EXCH_lac__L_e"]
+
+    # Define biomass yield bounds
+    yield_bounds = {
+        "max": keys["In vivo yield"] + 1.96 * keys["In vivo yield error"],
+        "avg": keys["In vivo yield"],
+        "min": keys["In vivo yield"] - 1.96 * keys["In vivo yield error"],
+    }
+
+    # Compute solutions for each biomass yield bound
+    solutions = {}
+    for bound_name, bound_value in yield_bounds.items():
+        model.reactions[model.reactions.index("BIOMASS")].bounds = (bound_value, bound_value)
+        solution = cobra.flux_analysis.parsimonious.optimize_minimal_flux(model)
+        solutions[bound_name] = {metabolite: solution.fluxes.get(metabolite, 0) for metabolite in metabolites}
+
+    return solutions
+
+if __name__ == '__main__':
     strains: dict = load_strains()
     results: dict = {}
 
@@ -81,6 +128,8 @@ if __name__ == '__main__':
         # --- Load the model ---
         model: cobra.Model = load_model(keys["glgC model"])
         print("Model successfully loaded for " + strain + ".")
+
+        calc_pFBA(model, "EXCH_etoh_e")
 
         # --- Update the model for the strain ---
         strain_model: cobra.Model = update_model(model, keys["Knockouts"])
@@ -97,5 +146,4 @@ if __name__ == '__main__':
             reaction: {"min": fva_results.loc[reaction, "minimum"], "max": fva_results.loc[reaction, "maximum"]} for reaction in reactions
         }
 
-    with open(r"Results\Metabolite yields at fixed biomass\metabolite_yields.json", "w") as file:
-        json.dump(results, file, indent=4)
+    

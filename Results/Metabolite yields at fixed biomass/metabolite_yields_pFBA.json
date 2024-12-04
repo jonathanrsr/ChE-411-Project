@@ -1,0 +1,262 @@
+{
+    "AVM003": {
+        "Max biomass yield": {
+            "EXCH_etoh_e": 2.8390423355419556,
+            "EXCH_ac_e": 0.0,
+            "EXCH_for_e": 0.21462267426794632,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        },
+        "Average biomass yield": {
+            "EXCH_etoh_e": 2.8938292878473977,
+            "EXCH_ac_e": 0.0,
+            "EXCH_for_e": 0.20449437882809982,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        },
+        "Minimum biomass yield": {
+            "EXCH_etoh_e": 2.9486162401528273,
+            "EXCH_ac_e": 0.0,
+            "EXCH_for_e": 0.1943660833882533,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        }
+    },
+    "AVM008": {
+        "Max biomass yield": {
+            "EXCH_etoh_e": 2.1526164149113463,
+            "EXCH_ac_e": 0.4141268132832181,
+            "EXCH_for_e": 0.0,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        },
+        "Average biomass yield": {
+            "EXCH_etoh_e": 2.726163426717573,
+            "EXCH_ac_e": 0.0,
+            "EXCH_for_e": 0.0,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        },
+        "Minimum biomass yield": {
+            "EXCH_etoh_e": 2.8475257055458507,
+            "EXCH_ac_e": 0.0,
+            "EXCH_for_e": 0.21305437973595548,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        }
+    },
+    "AVM051": {
+        "Max biomass yield": {
+            "EXCH_etoh_e": 2.538734409467899,
+            "EXCH_ac_e": 0.3152176595490398,
+            "EXCH_for_e": 0.0,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        },
+        "Average biomass yield": {
+            "EXCH_etoh_e": 2.938550271588099,
+            "EXCH_ac_e": 0.0,
+            "EXCH_for_e": 0.0,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        },
+        "Minimum biomass yield": {
+            "EXCH_etoh_e": 3.002267343754812,
+            "EXCH_ac_e": 0.0,
+            "EXCH_for_e": 0.0,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        }
+    },
+    "AVM052": {
+        "Max biomass yield": {
+            "EXCH_etoh_e": 2.961356946594923,
+            "EXCH_ac_e": 0.0,
+            "EXCH_for_e": -1.5888998700547437e-12,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        },
+        "Average biomass yield": {
+            "EXCH_etoh_e": 3.0620867368435882,
+            "EXCH_ac_e": 0.0,
+            "EXCH_for_e": 0.17338914151015195,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        },
+        "Minimum biomass yield": {
+            "EXCH_etoh_e": 3.1368752749113185,
+            "EXCH_ac_e": 0.0,
+            "EXCH_for_e": 0.15956321440178256,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        }
+    },
+    "AVM053": {
+        "Max biomass yield": {
+            "EXCH_etoh_e": 2.84858454421879,
+            "EXCH_ac_e": 0.04788397047193171,
+            "EXCH_for_e": 8.176724333647603e-14,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        },
+        "Average biomass yield": {
+            "EXCH_etoh_e": 2.9787221466728795,
+            "EXCH_ac_e": 0.0,
+            "EXCH_for_e": 0.18880049700521997,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        },
+        "Minimum biomass yield": {
+            "EXCH_etoh_e": 3.0316732046329973,
+            "EXCH_ac_e": 0.0,
+            "EXCH_for_e": 0.17901159770886194,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        }
+    },
+    "AVM056": {
+        "Max biomass yield": {
+            "EXCH_etoh_e": 1.2805003425912713,
+            "EXCH_ac_e": 1.6335759930350262,
+            "EXCH_for_e": 0.0,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        },
+        "Average biomass yield": {
+            "EXCH_etoh_e": 1.518126260122163,
+            "EXCH_ac_e": 1.4321806182368788,
+            "EXCH_for_e": 0.0,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        },
+        "Minimum biomass yield": {
+            "EXCH_etoh_e": 1.7557521776531608,
+            "EXCH_ac_e": 1.2307852434387285,
+            "EXCH_for_e": 0.0,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        }
+    },
+    "AVM059": {
+        "Max biomass yield": {
+            "EXCH_etoh_e": 2.5444751938059427,
+            "EXCH_ac_e": 0.08488802527234288,
+            "EXCH_for_e": 0.0,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        },
+        "Average biomass yield": {
+            "EXCH_etoh_e": 2.7254732408734585,
+            "EXCH_ac_e": 0.0,
+            "EXCH_for_e": 0.0,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        },
+        "Minimum biomass yield": {
+            "EXCH_etoh_e": 2.7851881201058375,
+            "EXCH_ac_e": 0.0,
+            "EXCH_for_e": 0.0,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        }
+    },
+    "AVM060": {
+        "Max biomass yield": {
+            "EXCH_etoh_e": 2.50520376428269,
+            "EXCH_ac_e": 0.34415390322918216,
+            "EXCH_for_e": 0.0,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        },
+        "Average biomass yield": {
+            "EXCH_etoh_e": 3.021661565974334,
+            "EXCH_ac_e": 0.0,
+            "EXCH_for_e": 0.0,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        },
+        "Minimum biomass yield": {
+            "EXCH_etoh_e": 3.163411934637581,
+            "EXCH_ac_e": 0.0,
+            "EXCH_for_e": 0.15465746370049158,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        }
+    },
+    "AVM061": {
+        "Max biomass yield": {
+            "EXCH_etoh_e": 2.2900085807748276,
+            "EXCH_ac_e": 0.7779862825214741,
+            "EXCH_for_e": 0.0,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        },
+        "Average biomass yield": {
+            "EXCH_etoh_e": 2.547816425547937,
+            "EXCH_ac_e": 0.5594860950693438,
+            "EXCH_for_e": 0.0,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        },
+        "Minimum biomass yield": {
+            "EXCH_etoh_e": 2.8056242703212697,
+            "EXCH_ac_e": 0.34098590761707925,
+            "EXCH_for_e": 0.0,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        }
+    },
+    "LL1004": {
+        "Max biomass yield": {
+            "EXCH_etoh_e": 1.3167460405383613,
+            "EXCH_ac_e": 1.1161356129410667,
+            "EXCH_for_e": 0.0,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        },
+        "Average biomass yield": {
+            "EXCH_etoh_e": 2.1857082089921476,
+            "EXCH_ac_e": 0.38623917152452586,
+            "EXCH_for_e": 0.0,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        },
+        "Minimum biomass yield": {
+            "EXCH_etoh_e": 2.7452401634487966,
+            "EXCH_ac_e": 0.0,
+            "EXCH_for_e": 0.0,
+            "EXCH_pyr_e": 0.0,
+            "EXCH_mal__L_e": 0.0,
+            "EXCH_lac__L_e": 0.0
+        }
+    }
+}
