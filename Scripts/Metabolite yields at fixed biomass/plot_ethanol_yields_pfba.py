@@ -2,17 +2,17 @@ from utils import load_json
 import matplotlib.pyplot as plt
 import numpy as np
 
-pfba_data = load_json(r"Results\Metabolite yields at fixed biomass\metabolite_yields_pFBA.json")
-strain_names = list(pfba_data.keys())
+pfba_data: dict = load_json(r"Results\Metabolite yields at fixed biomass\metabolite_yields_pFBA.json")
+strain_names: list[str] = list(pfba_data.keys())
 
-yield_in_vivo_stdev = np.array([0.039667, 0.060672, 0.044414, 0.07231, 0.079599, 0.029943, 0.044697, 0.064913, 0.032526, 0.043496])
-yield_in_vivo_at_average_biomass_yield = np.array([0.74902, 0.77221, 0.89255, 0.8148, 0.94992, 0.93805, 0.97154, 0.90584, 0.90042, 0.81067])
-yield_in_vivo_at_max_biomass_yield = yield_in_vivo_at_average_biomass_yield + 1.96*yield_in_vivo_stdev
-yield_in_vivo_at_min_biomass_yield = yield_in_vivo_at_average_biomass_yield - 1.96*yield_in_vivo_stdev
+yield_in_vivo_stdev: np.ndarray[float] = np.array([0.039667, 0.060672, 0.044414, 0.07231, 0.079599, 0.029943, 0.044697, 0.064913, 0.032526, 0.043496])
+yield_in_vivo_at_average_biomass_yield: np.ndarray[float] = np.array([0.74902, 0.77221, 0.89255, 0.8148, 0.94992, 0.93805, 0.97154, 0.90584, 0.90042, 0.81067])
+yield_in_vivo_at_max_biomass_yield: np.ndarray[float] = yield_in_vivo_at_average_biomass_yield + 1.96*yield_in_vivo_stdev
+yield_in_vivo_at_min_biomass_yield: np.ndarray[float] = yield_in_vivo_at_average_biomass_yield - 1.96*yield_in_vivo_stdev
 
-yield_old_model_at_average_biomass_yield = np.array([3.914248039, 3.9012514, 3.918086881, 3.927292147, 3.920829775, 3.920787443, 3.897517061, 3.921330973, 3.930125187, 3.892235489])
+yield_old_model_at_average_biomass_yield: np.ndarray[float] = np.array([3.914248039, 3.9012514, 3.918086881, 3.927292147, 3.920829775, 3.920787443, 3.897517061, 3.921330973, 3.930125187, 3.892235489])
 
-yield_new_model_at_average_biomass_yield = np.array([2.893825344, 2.709746659, 2.943345261, 3.062090439, 2.978727777, 1.725088314, 2.707906779, 3.021648871, 2.754722908, 1.997270955])
+yield_new_model_at_average_biomass_yield: np.ndarray[float] = np.array([2.893825344, 2.709746659, 2.943345261, 3.062090439, 2.978727777, 1.725088314, 2.707906779, 3.021648871, 2.754722908, 1.997270955])
 
 
 plt.figure(figsize=(12, 5.5))

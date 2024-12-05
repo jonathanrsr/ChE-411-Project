@@ -1,5 +1,24 @@
 import cobra
 import json
+import pandas as pd
+
+def load_csv(path: str) -> pd.DataFrame:
+    """
+    Load a CSV file.
+
+    Parameters
+    ----------
+    path: str
+        The path to the CSV file.
+    
+    Returns
+    -------
+    pd.DataFrame
+        The loaded CSV file.
+    """
+    data = pd.read_csv(path)
+
+    return data
 
 def load_json(path: str) -> dict:
     """
