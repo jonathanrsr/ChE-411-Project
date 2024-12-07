@@ -29,7 +29,7 @@ plt.figure(figsize=(12, 5.5))
 plt.bar(x - width*1.5, in_vivo_values, yerr=[in_vivo_values - in_vivo_min, in_vivo_max - in_vivo_values],color="#277da1", edgecolor="black", width=width, label="In vivo values", capsize=5)
 plt.bar(x - width/2, old, color="#90be6d", edgecolor="black", width=width, label=r"$\it{i}$CBI655")
 plt.bar(x + width/2, new, color="#f9c74f", edgecolor="black", width=width, label=r"$\it{i}$CTH669")
-plt.bar(x + width*1.5, values, color="#f94144", edgecolor="black", width=width, label="FBA results")
+plt.bar(x + width*1.5, values, color="#f94144", edgecolor="black", width=width, label="This project")
 
 ax = plt.gca()
 ax.spines['top'].set_visible(False)   # Remove top border
